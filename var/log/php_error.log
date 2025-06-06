@@ -1,0 +1,26 @@
+[Fri Jun  6 09:24:55 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
+[Fri Jun  6 09:25:17 2025] [::1]:51331 Accepted
+[Fri Jun  6 09:25:43 2025] [::1]:51331 [200]: GET /
+[Fri Jun  6 09:25:43 2025] [::1]:51331 Closing
+[Fri Jun  6 09:25:49 2025] [::1]:51335 Accepted
+[Fri Jun  6 09:27:55 2025] [::1]:51335 [200]: GET /
+[Fri Jun  6 09:27:55 2025] [::1]:51335 Closing
+[Fri Jun  6 09:27:59 2025] [::1]:51339 Accepted
+[Fri Jun  6 09:27:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun  6 09:27:59 2025] [::1]:51339 [200]: GET /
+[Fri Jun  6 09:27:59 2025] [::1]:51339 Closing
+[Fri Jun  6 09:40:07 2025] [::1]:51383 Accepted
+[Fri Jun  6 09:40:08 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun  6 09:40:08 2025] [::1]:51383 [200]: GET /
+[Fri Jun  6 09:40:08 2025] [::1]:51383 Closing
+[Fri Jun  6 09:40:14 2025] [::1]:51390 Accepted
+[Fri Jun  6 09:40:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun  6 09:40:15 2025] [::1]:51390 [200]: GET /
+[Fri Jun  6 09:40:15 2025] [::1]:51390 Closing
+[Fri Jun  6 09:55:54 2025] [::1]:51450 Accepted
+[Fri Jun  6 09:58:16 2025] [::1]:51450 [200]: GET /
+[Fri Jun  6 09:58:16 2025] [::1]:51450 Closing
+[Fri Jun  6 09:58:22 2025] [::1]:51458 Accepted
+[Fri Jun  6 09:58:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun  6 09:58:23 2025] [::1]:51458 [200]: GET /
+[Fri Jun  6 09:58:23 2025] [::1]:51458 Closing
