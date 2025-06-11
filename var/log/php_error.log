@@ -1,26 +1,51 @@
-[Fri Jun  6 09:24:55 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
-[Fri Jun  6 09:25:17 2025] [::1]:51331 Accepted
-[Fri Jun  6 09:25:43 2025] [::1]:51331 [200]: GET /
-[Fri Jun  6 09:25:43 2025] [::1]:51331 Closing
-[Fri Jun  6 09:25:49 2025] [::1]:51335 Accepted
-[Fri Jun  6 09:27:55 2025] [::1]:51335 [200]: GET /
-[Fri Jun  6 09:27:55 2025] [::1]:51335 Closing
-[Fri Jun  6 09:27:59 2025] [::1]:51339 Accepted
-[Fri Jun  6 09:27:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun  6 09:27:59 2025] [::1]:51339 [200]: GET /
-[Fri Jun  6 09:27:59 2025] [::1]:51339 Closing
-[Fri Jun  6 09:40:07 2025] [::1]:51383 Accepted
-[Fri Jun  6 09:40:08 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun  6 09:40:08 2025] [::1]:51383 [200]: GET /
-[Fri Jun  6 09:40:08 2025] [::1]:51383 Closing
-[Fri Jun  6 09:40:14 2025] [::1]:51390 Accepted
-[Fri Jun  6 09:40:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun  6 09:40:15 2025] [::1]:51390 [200]: GET /
-[Fri Jun  6 09:40:15 2025] [::1]:51390 Closing
-[Fri Jun  6 09:55:54 2025] [::1]:51450 Accepted
-[Fri Jun  6 09:58:16 2025] [::1]:51450 [200]: GET /
-[Fri Jun  6 09:58:16 2025] [::1]:51450 Closing
-[Fri Jun  6 09:58:22 2025] [::1]:51458 Accepted
-[Fri Jun  6 09:58:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun  6 09:58:23 2025] [::1]:51458 [200]: GET /
-[Fri Jun  6 09:58:23 2025] [::1]:51458 Closing
+[Wed Jun 11 14:17:55 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
+[Wed Jun 11 14:18:16 2025] [::1]:62474 Accepted
+[Wed Jun 11 14:18:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:18:16 2025] [::1]:62474 [200]: POST /api/api/upload-avatar
+[Wed Jun 11 14:18:16 2025] [::1]:62474 Closing
+[Wed Jun 11 14:18:16 2025] [::1]:62478 Accepted
+[Wed Jun 11 14:18:17 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:18:17 2025] [::1]:62478 [200]: OPTIONS /api/register
+[Wed Jun 11 14:18:17 2025] [::1]:62478 Closing
+[Wed Jun 11 14:18:17 2025] [::1]:62481 Accepted
+[Wed Jun 11 14:18:17 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:18:17 2025] [::1]:62481 [200]: POST /api/register
+[Wed Jun 11 14:18:17 2025] [::1]:62481 Closing
+[Wed Jun 11 14:20:26 2025] [::1]:62497 Accepted
+[Wed Jun 11 14:20:26 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:20:26 2025] PHP Parse error:  syntax error, unexpected token "public" in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 44
+[Wed Jun 11 14:20:26 2025] [::1]:62497 [200]: POST /api/api/upload-avatar - syntax error, unexpected token "public" in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 44
+[Wed Jun 11 14:20:26 2025] [::1]:62497 Closing
+[Wed Jun 11 14:20:27 2025] [::1]:62500 Accepted
+[Wed Jun 11 14:20:27 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:20:27 2025] [::1]:62500 [200]: OPTIONS /api/register
+[Wed Jun 11 14:20:27 2025] [::1]:62500 Closing
+[Wed Jun 11 14:20:27 2025] [::1]:62503 Accepted
+[Wed Jun 11 14:20:27 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:20:27 2025] PHP Parse error:  syntax error, unexpected token "public" in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 44
+[Wed Jun 11 14:20:27 2025] [::1]:62503 [200]: POST /api/register - syntax error, unexpected token "public" in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 44
+[Wed Jun 11 14:20:27 2025] [::1]:62503 Closing
+[Wed Jun 11 14:20:54 2025] [::1]:62509 Accepted
+[Wed Jun 11 14:20:55 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:20:55 2025] [::1]:62509 [200]: POST /api/api/upload-avatar
+[Wed Jun 11 14:20:55 2025] [::1]:62509 Closing
+[Wed Jun 11 14:20:55 2025] [::1]:62513 Accepted
+[Wed Jun 11 14:20:55 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:20:55 2025] [::1]:62513 [200]: OPTIONS /api/register
+[Wed Jun 11 14:20:55 2025] [::1]:62513 Closing
+[Wed Jun 11 14:20:55 2025] [::1]:62516 Accepted
+[Wed Jun 11 14:20:56 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:20:56 2025] [::1]:62516 [200]: POST /api/register
+[Wed Jun 11 14:20:56 2025] [::1]:62516 Closing
+[Wed Jun 11 14:25:22 2025] [::1]:62666 Accepted
+[Wed Jun 11 14:25:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:25:23 2025] [::1]:62666 [200]: POST /api/upload-avatar
+[Wed Jun 11 14:25:23 2025] [::1]:62666 Closing
+[Wed Jun 11 14:25:23 2025] [::1]:62670 Accepted
+[Wed Jun 11 14:25:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:25:23 2025] [::1]:62670 [200]: OPTIONS /api/register
+[Wed Jun 11 14:25:23 2025] [::1]:62670 Closing
+[Wed Jun 11 14:25:23 2025] [::1]:62673 Accepted
+[Wed Jun 11 14:25:24 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Wed Jun 11 14:25:24 2025] [::1]:62673 [200]: POST /api/register
+[Wed Jun 11 14:25:24 2025] [::1]:62673 Closing
