@@ -3,7 +3,7 @@
    ------------------------------------------------------------------ */
 
 -- ➡️  Utilisateurs
-INSERT INTO `user` (username, avatar, email, password_hash, created_at) VALUES
+INSERT INTO `user` (username, avatar, email, password, created_at) VALUES
 ( 'Sulyvane',   'sulyvane.png',   'sulyvane@example.com',  '$2y$10$2RWot3AW6eFNeRXKDfZNAuqZHu8y/RzFExt2yD0dku/.i1upXbDWG', '2025-01-15 10:22:00'),
 ( 'Leo',     'Leo.jpg',     'Leo@example.com',    '$2y$10$2RWot3AW6eFNeRXKDfZNAuqZHu8y/RzFExt2yD0dku/.i1upXbDWG', '2025-01-16 09:04:00'),
 ( 'Jean-Baptiste',  'Jean-Baptiste.jpg',  'Jean-Baptiste@example.com', '$2y$10$2RWot3AW6eFNeRXKDfZNAuqZHu8y/RzFExt2yD0dku/.i1upXbDWG', '2025-02-03 14:37:00'),

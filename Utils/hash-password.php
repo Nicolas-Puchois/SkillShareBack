@@ -90,7 +90,7 @@ function generate_hash($handle)
     }
     echo "\n";
 
-    $hash = password_hash($password, $hash_options['algorithm'], $hash_options);
+    $hash = password($password, $hash_options['algorithm'], $hash_options);
 
     echo "\nVoici votre hash :\n";
     echo "-----------------------------------\n";

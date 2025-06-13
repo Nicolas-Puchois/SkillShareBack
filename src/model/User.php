@@ -13,14 +13,20 @@ class User
     private string $avatar = "avatar_par_defaut.png";
     private string $email;
     private string $password;
-    private array $role = ["ROLE_USER"];
+    private array $roles = ["ROLE_USER"];
     private string $created_at;
+    private ?string $email_token;
+    private bool $is_verified;
+    private string $verified_at;
 
     public function __construct(array $data)
     {
         $this->username = $data['username'];
         $this->email = $data['email'];
         $this->password = $data['password'];
+        $this->avatar = $data['avatar'] ?? $this->avatar;
+        $this->email_token = $data['email_token'];
+        $this->is_verified = isset($data['is_verified']) ? (bool)$data['is_verified'] : false;
     }
 
     /**
@@ -122,9 +128,9 @@ class User
      *
      * @return array
      */
-    public function getRole(): array
+    public function getRoles(): array
     {
-        return $this->role;
+        return $this->roles;
     }
 
     /**
@@ -134,9 +140,9 @@ class User
      *
      * @return self
      */
-    public function setRole(array $role): self
+    public function setRoles(array $roles): self
     {
-        $this->role = $role;
+        $this->roles = $roles;
         return $this;
     }
 
@@ -184,6 +190,75 @@ class User
     public function setCreatedAt(string $created_at): self
     {
         $this->created_at = $created_at;
+        return $this;
+    }
+
+    /**
+     * Get the value of email_token
+     *
+     * @return string
+     */
+    public function getEmailToken(): ?string
+    {
+        return $this->email_token;
+    }
+
+    /**
+     * Set the value of email_token
+     *
+     * @param string $email_token
+     *
+     * @return self
+     */
+    public function setEmailToken(?string $email_token): self
+    {
+        $this->email_token = $email_token;
+        return $this;
+    }
+
+    /**
+     * Get the value of is_verified
+     *
+     * @return bool
+     */
+    public function getIsVerified(): bool
+    {
+        return $this->is_verified;
+    }
+
+    /**
+     * Set the value of is_verified
+     *
+     * @param bool $is_verified
+     *
+     * @return self
+     */
+    public function setIsVerified(bool $is_verified): self
+    {
+        $this->is_verified = $is_verified;
+        return $this;
+    }
+
+    /**
+     * Get the value of verified_at
+     *
+     * @return string
+     */
+    public function getVerifiedAt(): string
+    {
+        return $this->verified_at;
+    }
+
+    /**
+     * Set the value of verified_at
+     *
+     * @param string $verified_at
+     *
+     * @return self
+     */
+    public function setVerifiedAt(string $verified_at): self
+    {
+        $this->verified_at = $verified_at;
         return $this;
     }
 }
