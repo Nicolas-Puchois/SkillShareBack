@@ -11,6 +11,7 @@ use App\services\MailService;
 use App\core\attributes\Route;
 use App\repository\UserRepository;
 use App\services\FileUploadService;
+use App\services\JWTService;
 
 class UserController
 {
@@ -44,6 +45,8 @@ class UserController
     }
 
 
+
+
     #[Route('/api/register', 'POST')]
     public function register()
     {
@@ -53,12 +56,13 @@ class UserController
             if (!$data) throw new Exception('JSON invalide');
 
             $userRepository = new UserRepository();
-            if ($userRepository->findUserByEmail($data['email'])) {
-                throw new Exception('Cette adresse email est déjà utilisé');
-            }
-            if ($userRepository->findUserByUsername($data['username'])) {
-                throw new Exception("Ce nom d'utilisateur est déjà pris");
-            }
+            if ($userRepository->findUserByUsername($data['username']) && $userRepository->findUserByEmail($data['email'])) {
+                throw new Exception("Un compte a déjà été crée avec cet username et cette adresse email.");
+            } elseif ($userRepository->findUserByEmail($data['email'])) {
+                throw new Exception('Cette adresse email est déjà utilisée !');
+            } elseif ($userRepository->findUserByUsername($data['username'])) {
+                throw new Exception("Ce nom d'utilisateur est déjà utilisée !");
+            };
 
             $emailToken = bin2hex(random_bytes(32));
 
@@ -94,6 +98,49 @@ class UserController
             ]);
         }
     }
+
+
+
+
+    #[Route('/api/login', 'POST')]
+    public function login()
+    {
+        try {
+            $data = json_decode(file_get_contents('php://input'), true);
+            if (!$data) throw new Exception('JSON invalide');
+            $userRepository = new UserRepository();
+            $user = $userRepository->findUserByEmail($data['email']);
+            if (!$user) throw new Exception('Email ou mot de passe incorrect !');
+            if (!password_verify($data['password'], $user->getPassword()))  throw new Exception('Email ou mot de passe incorrect');
+            if (!$user->getIsVerified()) throw new Exception("Veuillez vérifier votre email avant de  vous connecter ");
+
+            // générer le token JWT
+            $token = JWTService::generate([
+                "id_user" => $user->getId(),
+                "role" => $user->getRoles(),
+                "email" => $user->getEmail()
+            ]);
+
+            echo json_encode([
+                'success' => true,
+                'token' => $token,
+                'user' => [
+                    'avatar' => $user->getAvatar(),
+                    'username' => $user->getUsername()
+                ]
+            ]);
+        } catch (\Exception $e) {
+            error_log('Erreur inscription: ' . $e->getMessage());
+            http_response_code(400);
+            echo json_encode([
+                "success" => false,
+                "error" => $e->getMessage()
+            ]);
+        }
+    }
+
+
+
 
     #[Route('/api/verify-email', 'GET')]
     public function verifyEmail()

@@ -1,279 +1,237 @@
-[Fri Jun 13 10:08:00 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
-[Fri Jun 13 10:16:05 2025] [::1]:54620 Accepted
-[Fri Jun 13 10:16:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 10:16:06 2025] [::1]:54620 [200]: OPTIONS /api/register
-[Fri Jun 13 10:16:06 2025] [::1]:54620 Closing
-[Fri Jun 13 10:16:06 2025] [::1]:54623 Accepted
-[Fri Jun 13 10:16:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 10:16:07 2025] [::1]:54623 [200]: POST /api/register
-[Fri Jun 13 10:16:07 2025] [::1]:54623 Closing
-[Fri Jun 13 10:16:07 2025] [::1]:54628 Accepted
-[Fri Jun 13 10:16:07 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 10:16:07 2025] Erreur inscription: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'tutu' for key 'username'
-[Fri Jun 13 10:16:07 2025] [::1]:54628 [400]: POST /api/register
-[Fri Jun 13 10:16:07 2025] [::1]:54628 Closing
-[Fri Jun 13 11:13:57 2025] [::1]:55222 Accepted
-[Fri Jun 13 11:13:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:13:58 2025] [::1]:55222 [200]: OPTIONS /api/register
-[Fri Jun 13 11:13:58 2025] [::1]:55222 Closing
-[Fri Jun 13 11:13:58 2025] [::1]:55225 Accepted
-[Fri Jun 13 11:13:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:13:58 2025] [::1]:55225 [200]: OPTIONS /api/register
-[Fri Jun 13 11:13:58 2025] [::1]:55225 Closing
-[Fri Jun 13 11:13:58 2025] [::1]:55227 Accepted
-[Fri Jun 13 11:13:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:13:59 2025] Erreur inscription: Utilisateur non trouvé
-[Fri Jun 13 11:13:59 2025] [::1]:55227 [400]: POST /api/register
-[Fri Jun 13 11:13:59 2025] [::1]:55227 Closing
-[Fri Jun 13 11:13:59 2025] [::1]:55232 Accepted
-[Fri Jun 13 11:13:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:13:59 2025] Erreur inscription: Utilisateur non trouvé
-[Fri Jun 13 11:13:59 2025] [::1]:55232 [400]: POST /api/register
-[Fri Jun 13 11:13:59 2025] [::1]:55232 Closing
-[Fri Jun 13 11:14:05 2025] [::1]:55252 Accepted
-[Fri Jun 13 11:14:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:14:06 2025] [::1]:55252 [200]: OPTIONS /api/register
-[Fri Jun 13 11:14:06 2025] [::1]:55252 Closing
-[Fri Jun 13 11:14:06 2025] [::1]:55255 Accepted
-[Fri Jun 13 11:14:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:14:06 2025] Erreur inscription: Utilisateur non trouvé
-[Fri Jun 13 11:14:06 2025] [::1]:55255 [400]: POST /api/register
-[Fri Jun 13 11:14:06 2025] [::1]:55255 Closing
-[Fri Jun 13 11:15:12 2025] [::1]:55292 Accepted
-[Fri Jun 13 11:15:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:15:13 2025] [::1]:55292 [200]: OPTIONS /api/register
-[Fri Jun 13 11:15:13 2025] [::1]:55292 Closing
-[Fri Jun 13 11:15:13 2025] [::1]:55298 Accepted
-[Fri Jun 13 11:15:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:15:13 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 89
-[Fri Jun 13 11:15:13 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 90
-[Fri Jun 13 11:15:13 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 91
-[Fri Jun 13 11:15:13 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 92
-[Fri Jun 13 11:15:13 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 93
-[Fri Jun 13 11:15:13 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 94
-[Fri Jun 13 11:15:13 2025] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(97): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:15:13 2025] [::1]:55298 [200]: POST /api/register - Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(97): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:15:13 2025] [::1]:55298 Closing
-[Fri Jun 13 11:16:31 2025] [::1]:55318 Accepted
-[Fri Jun 13 11:16:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:16:31 2025] [::1]:55318 [200]: OPTIONS /api/register
-[Fri Jun 13 11:16:31 2025] [::1]:55318 Closing
-[Fri Jun 13 11:16:31 2025] [::1]:55321 Accepted
-[Fri Jun 13 11:16:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:16:32 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 88
-[Fri Jun 13 11:16:32 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 89
-[Fri Jun 13 11:16:32 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 90
-[Fri Jun 13 11:16:32 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 91
-[Fri Jun 13 11:16:32 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 92
-[Fri Jun 13 11:16:32 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 93
-[Fri Jun 13 11:16:32 2025] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(96): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:16:32 2025] [::1]:55321 [200]: POST /api/register - Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(96): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:16:32 2025] [::1]:55321 Closing
-[Fri Jun 13 11:16:45 2025] [::1]:55344 Accepted
-[Fri Jun 13 11:16:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:16:45 2025] [::1]:55344 [200]: OPTIONS /api/register
-[Fri Jun 13 11:16:45 2025] [::1]:55344 Closing
-[Fri Jun 13 11:16:45 2025] [::1]:55347 Accepted
-[Fri Jun 13 11:16:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:16:46 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 88
-[Fri Jun 13 11:16:46 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 89
-[Fri Jun 13 11:16:46 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 90
-[Fri Jun 13 11:16:46 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 91
-[Fri Jun 13 11:16:46 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 92
-[Fri Jun 13 11:16:46 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 93
-[Fri Jun 13 11:16:46 2025] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(96): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:16:46 2025] [::1]:55347 [200]: POST /api/register - Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(96): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:16:46 2025] [::1]:55347 Closing
-[Fri Jun 13 11:17:50 2025] [::1]:55372 Accepted
-[Fri Jun 13 11:17:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:17:50 2025] [::1]:55372 [200]: OPTIONS /api/register
-[Fri Jun 13 11:17:50 2025] [::1]:55372 Closing
-[Fri Jun 13 11:17:50 2025] [::1]:55375 Accepted
-[Fri Jun 13 11:17:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:17:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 89
-[Fri Jun 13 11:17:50 2025] PHP Warning:  Undefined array key "username" in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:17:50 2025] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(93): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:17:50 2025] [::1]:55375 [200]: POST /api/register - Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(93): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:17:50 2025] [::1]:55375 Closing
-[Fri Jun 13 11:18:49 2025] [::1]:55402 Accepted
-[Fri Jun 13 11:18:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:18:50 2025] [::1]:55402 [200]: OPTIONS /api/register
-[Fri Jun 13 11:18:50 2025] [::1]:55402 Closing
-[Fri Jun 13 11:18:50 2025] [::1]:55405 Accepted
-[Fri Jun 13 11:18:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:18:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 88
-[Fri Jun 13 11:18:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 89
-[Fri Jun 13 11:18:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 90
-[Fri Jun 13 11:18:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 91
-[Fri Jun 13 11:18:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 92
-[Fri Jun 13 11:18:50 2025] PHP Warning:  Trying to access array offset on false in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 93
-[Fri Jun 13 11:18:50 2025] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(96): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:18:50 2025] [::1]:55405 [200]: POST /api/register - Uncaught TypeError: Cannot assign null to property App\model\User::$username of type string in E:\Projets\SkillShare\backend\src\model\User.php:24
-Stack trace:
-#0 E:\Projets\SkillShare\backend\src\repository\UserRepository.php(96): App\model\User->__construct(Array)
-#1 E:\Projets\SkillShare\backend\src\controller\UserController.php(56): App\repository\UserRepository->findUserByEmail('tito@mail.com')
-#2 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->register()
-#3 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/register', 'POST')
-#4 {main}
-  thrown in E:\Projets\SkillShare\backend\src\model\User.php on line 24
-[Fri Jun 13 11:18:50 2025] [::1]:55405 Closing
-[Fri Jun 13 11:20:51 2025] [::1]:55458 Accepted
-[Fri Jun 13 11:20:51 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:20:51 2025] [::1]:55458 [200]: OPTIONS /api/register
-[Fri Jun 13 11:20:51 2025] [::1]:55458 Closing
-[Fri Jun 13 11:20:51 2025] [::1]:55462 Accepted
-[Fri Jun 13 11:20:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:20:52 2025] [::1]:55462 [200]: POST /api/register
-[Fri Jun 13 11:20:52 2025] [::1]:55462 Closing
-[Fri Jun 13 11:21:12 2025] [::1]:55470 Accepted
-[Fri Jun 13 11:21:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:21:12 2025] [::1]:55470 [200]: OPTIONS /api/register
-[Fri Jun 13 11:21:12 2025] [::1]:55470 Closing
-[Fri Jun 13 11:21:12 2025] [::1]:55473 Accepted
-[Fri Jun 13 11:21:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:21:13 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:21:13 2025] [::1]:55473 [400]: POST /api/register
-[Fri Jun 13 11:21:13 2025] [::1]:55473 Closing
-[Fri Jun 13 11:22:16 2025] [::1]:55530 Accepted
-[Fri Jun 13 11:22:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:22:16 2025] [::1]:55530 [200]: OPTIONS /api/register
-[Fri Jun 13 11:22:16 2025] [::1]:55530 Closing
-[Fri Jun 13 11:22:16 2025] [::1]:55533 Accepted
-[Fri Jun 13 11:22:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:22:16 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:22:16 2025] [::1]:55533 [400]: POST /api/register
-[Fri Jun 13 11:22:16 2025] [::1]:55533 Closing
-[Fri Jun 13 11:23:20 2025] [::1]:55612 Accepted
-[Fri Jun 13 11:23:21 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:23:21 2025] [::1]:55612 [200]: OPTIONS /api/register
-[Fri Jun 13 11:23:21 2025] [::1]:55612 Closing
-[Fri Jun 13 11:23:21 2025] [::1]:55615 Accepted
-[Fri Jun 13 11:23:21 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:23:21 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:23:21 2025] [::1]:55615 [400]: POST /api/register
-[Fri Jun 13 11:23:21 2025] [::1]:55615 Closing
-[Fri Jun 13 11:32:14 2025] [::1]:55935 Accepted
-[Fri Jun 13 11:32:14 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:32:14 2025] [::1]:55935 [200]: OPTIONS /api/register
-[Fri Jun 13 11:32:14 2025] [::1]:55935 Closing
-[Fri Jun 13 11:32:14 2025] [::1]:55938 Accepted
-[Fri Jun 13 11:32:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:32:15 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:32:15 2025] [::1]:55938 [400]: POST /api/register
-[Fri Jun 13 11:32:15 2025] [::1]:55938 Closing
-[Fri Jun 13 11:33:39 2025] [::1]:56019 Accepted
-[Fri Jun 13 11:33:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:33:39 2025] [::1]:56019 [200]: OPTIONS /api/register
-[Fri Jun 13 11:33:39 2025] [::1]:56019 Closing
-[Fri Jun 13 11:33:39 2025] [::1]:56022 Accepted
-[Fri Jun 13 11:33:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:33:40 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:33:40 2025] [::1]:56022 [400]: POST /api/register
-[Fri Jun 13 11:33:40 2025] [::1]:56022 Closing
-[Fri Jun 13 11:36:00 2025] [::1]:56088 Accepted
-[Fri Jun 13 11:36:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:36:00 2025] [::1]:56088 [200]: OPTIONS /api/register
-[Fri Jun 13 11:36:00 2025] [::1]:56088 Closing
-[Fri Jun 13 11:36:00 2025] [::1]:56091 Accepted
-[Fri Jun 13 11:36:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:36:01 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:36:01 2025] [::1]:56091 [400]: POST /api/register
-[Fri Jun 13 11:36:01 2025] [::1]:56091 Closing
-[Fri Jun 13 11:40:31 2025] [::1]:56187 Accepted
-[Fri Jun 13 11:40:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:40:32 2025] [::1]:56187 [200]: OPTIONS /api/register
-[Fri Jun 13 11:40:32 2025] [::1]:56187 Closing
-[Fri Jun 13 11:40:32 2025] [::1]:56190 Accepted
-[Fri Jun 13 11:40:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:40:32 2025] Erreur inscription: Cette adresse email est déjà utilisé
-[Fri Jun 13 11:40:32 2025] [::1]:56190 [400]: POST /api/register
-[Fri Jun 13 11:40:32 2025] [::1]:56190 Closing
-[Fri Jun 13 11:40:52 2025] [::1]:56221 Accepted
-[Fri Jun 13 11:40:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:40:52 2025] [::1]:56221 [200]: OPTIONS /api/register
-[Fri Jun 13 11:40:52 2025] [::1]:56221 Closing
-[Fri Jun 13 11:40:52 2025] [::1]:56224 Accepted
-[Fri Jun 13 11:40:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:40:53 2025] Erreur inscription: Ce username est déjà pris
-[Fri Jun 13 11:40:53 2025] [::1]:56224 [400]: POST /api/register
-[Fri Jun 13 11:40:53 2025] [::1]:56224 Closing
-[Fri Jun 13 11:42:45 2025] [::1]:56255 Accepted
-[Fri Jun 13 11:42:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:42:45 2025] [::1]:56255 [200]: OPTIONS /api/register
-[Fri Jun 13 11:42:45 2025] [::1]:56255 Closing
-[Fri Jun 13 11:42:45 2025] [::1]:56258 Accepted
-[Fri Jun 13 11:42:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:42:46 2025] Erreur inscription: Ce nom d'utilisateur est déjà pris
-[Fri Jun 13 11:42:46 2025] [::1]:56258 [400]: POST /api/register
-[Fri Jun 13 11:42:46 2025] [::1]:56258 Closing
-[Fri Jun 13 11:43:07 2025] [::1]:56279 Accepted
-[Fri Jun 13 11:43:07 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:43:07 2025] [::1]:56279 [200]: OPTIONS /api/verify-email?token=61893600f371bf0711207231af10e53f7bb751a18a28c3aa013cd2da6ed4a06c
-[Fri Jun 13 11:43:07 2025] [::1]:56279 Closing
-[Fri Jun 13 11:43:07 2025] [::1]:56284 Accepted
-[Fri Jun 13 11:43:08 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Fri Jun 13 11:43:08 2025] [::1]:56284 [200]: GET /api/verify-email?token=61893600f371bf0711207231af10e53f7bb751a18a28c3aa013cd2da6ed4a06c
-[Fri Jun 13 11:43:08 2025] [::1]:56284 Closing
+[Mon Jun 16 12:14:42 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
+[Mon Jun 16 13:06:37 2025] [::1]:62289 Accepted
+[Mon Jun 16 13:06:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:06:38 2025] [::1]:62289 [200]: OPTIONS /api/register
+[Mon Jun 16 13:06:38 2025] [::1]:62289 Closing
+[Mon Jun 16 13:06:38 2025] [::1]:62292 Accepted
+[Mon Jun 16 13:06:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:06:38 2025] [::1]:62292 [200]: POST /api/register
+[Mon Jun 16 13:06:38 2025] [::1]:62292 Closing
+[Mon Jun 16 13:06:52 2025] [::1]:62331 Accepted
+[Mon Jun 16 13:06:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:06:52 2025] [::1]:62331 [200]: OPTIONS /api/verify-email?token=dd17db92b1a682da7ae3d92336e8efac690ca8c9dc20023be7f15851f75e48a3
+[Mon Jun 16 13:06:52 2025] [::1]:62331 Closing
+[Mon Jun 16 13:06:53 2025] [::1]:62334 Accepted
+[Mon Jun 16 13:06:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:06:53 2025] [::1]:62334 [200]: GET /api/verify-email?token=dd17db92b1a682da7ae3d92336e8efac690ca8c9dc20023be7f15851f75e48a3
+[Mon Jun 16 13:06:53 2025] [::1]:62334 Closing
+[Mon Jun 16 13:08:42 2025] [::1]:62362 Accepted
+[Mon Jun 16 13:08:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:08:43 2025] [::1]:62362 [200]: OPTIONS /api/login
+[Mon Jun 16 13:08:43 2025] [::1]:62362 Closing
+[Mon Jun 16 13:08:43 2025] [::1]:62365 Accepted
+[Mon Jun 16 13:08:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:08:43 2025] [::1]:62365 [200]: POST /api/login
+[Mon Jun 16 13:08:43 2025] [::1]:62365 Closing
+[Mon Jun 16 13:21:56 2025] [::1]:62503 Accepted
+[Mon Jun 16 13:21:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:21:57 2025] [::1]:62503 [200]: OPTIONS /api/login
+[Mon Jun 16 13:21:57 2025] [::1]:62503 Closing
+[Mon Jun 16 13:21:57 2025] [::1]:62506 Accepted
+[Mon Jun 16 13:21:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:21:57 2025] [::1]:62506 [200]: POST /api/login
+[Mon Jun 16 13:21:57 2025] [::1]:62506 Closing
+[Mon Jun 16 13:22:03 2025] [::1]:62512 Accepted
+[Mon Jun 16 13:22:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:22:03 2025] Erreur inscription: Email ou mot de passe incorrect !
+[Mon Jun 16 13:22:03 2025] [::1]:62512 [400]: POST /api/login
+[Mon Jun 16 13:22:03 2025] [::1]:62512 Closing
+[Mon Jun 16 13:23:10 2025] [::1]:62554 Accepted
+[Mon Jun 16 13:23:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:23:10 2025] [::1]:62554 [200]: OPTIONS /api/login
+[Mon Jun 16 13:23:10 2025] [::1]:62554 Closing
+[Mon Jun 16 13:23:10 2025] [::1]:62557 Accepted
+[Mon Jun 16 13:23:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:23:11 2025] Erreur inscription: Email ou mot de passe incorrect !
+[Mon Jun 16 13:23:11 2025] [::1]:62557 [400]: POST /api/login
+[Mon Jun 16 13:23:11 2025] [::1]:62557 Closing
+[Mon Jun 16 13:30:39 2025] [::1]:62699 Accepted
+[Mon Jun 16 13:30:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:30:39 2025] [::1]:62699 [200]: OPTIONS /api/login
+[Mon Jun 16 13:30:39 2025] [::1]:62699 Closing
+[Mon Jun 16 13:30:39 2025] [::1]:62702 Accepted
+[Mon Jun 16 13:30:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:30:40 2025] Erreur inscription: Email ou mot de passe incorrect !
+[Mon Jun 16 13:30:40 2025] [::1]:62702 [400]: POST /api/login
+[Mon Jun 16 13:30:40 2025] [::1]:62702 Closing
+[Mon Jun 16 13:31:17 2025] [::1]:62709 Accepted
+[Mon Jun 16 13:31:17 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:31:17 2025] [::1]:62709 [200]: OPTIONS /api/login
+[Mon Jun 16 13:31:17 2025] [::1]:62709 Closing
+[Mon Jun 16 13:31:17 2025] [::1]:62712 Accepted
+[Mon Jun 16 13:31:18 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:31:18 2025] [::1]:62712 [200]: POST /api/login
+[Mon Jun 16 13:31:18 2025] [::1]:62712 Closing
+[Mon Jun 16 13:32:43 2025] [::1]:62738 Accepted
+[Mon Jun 16 13:32:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:32:43 2025] [::1]:62738 [200]: OPTIONS /api/login
+[Mon Jun 16 13:32:43 2025] [::1]:62738 Closing
+[Mon Jun 16 13:32:43 2025] [::1]:62741 Accepted
+[Mon Jun 16 13:32:44 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:32:44 2025] Erreur inscription: Email ou mot de passe incorrect !
+[Mon Jun 16 13:32:44 2025] [::1]:62741 [400]: POST /api/login
+[Mon Jun 16 13:32:44 2025] [::1]:62741 Closing
+[Mon Jun 16 13:32:45 2025] [::1]:62745 Accepted
+[Mon Jun 16 13:32:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:32:46 2025] [::1]:62745 [200]: POST /api/login
+[Mon Jun 16 13:32:46 2025] [::1]:62745 Closing
+[Mon Jun 16 13:33:27 2025] [::1]:62837 Accepted
+[Mon Jun 16 13:33:28 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:33:28 2025] [::1]:62837 [200]: OPTIONS /api/login
+[Mon Jun 16 13:33:28 2025] [::1]:62837 Closing
+[Mon Jun 16 13:33:28 2025] [::1]:62840 Accepted
+[Mon Jun 16 13:33:28 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:33:29 2025] [::1]:62840 [200]: POST /api/login
+[Mon Jun 16 13:33:29 2025] [::1]:62840 Closing
+[Mon Jun 16 13:46:57 2025] [::1]:63008 Accepted
+[Mon Jun 16 13:46:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:46:57 2025] [::1]:63008 [200]: OPTIONS /api/login
+[Mon Jun 16 13:46:57 2025] [::1]:63008 Closing
+[Mon Jun 16 13:46:57 2025] [::1]:63011 Accepted
+[Mon Jun 16 13:46:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 13:46:58 2025] [::1]:63011 [200]: POST /api/login
+[Mon Jun 16 13:46:58 2025] [::1]:63011 Closing
+[Mon Jun 16 14:28:39 2025] [::1]:63416 Accepted
+[Mon Jun 16 14:28:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:28:39 2025] [::1]:63416 [200]: OPTIONS /api/register
+[Mon Jun 16 14:28:39 2025] [::1]:63416 Closing
+[Mon Jun 16 14:28:39 2025] [::1]:63419 Accepted
+[Mon Jun 16 14:28:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:28:40 2025] [::1]:63419 [200]: POST /api/register
+[Mon Jun 16 14:28:40 2025] [::1]:63419 Closing
+[Mon Jun 16 14:30:09 2025] [::1]:63497 Accepted
+[Mon Jun 16 14:30:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:30:09 2025] [::1]:63497 [200]: OPTIONS /api/verify-email?token=1861c7dba8939229e77f88f7022a8b14154ccf74431d0bc5d61ff00cbe1168b1
+[Mon Jun 16 14:30:09 2025] [::1]:63497 Closing
+[Mon Jun 16 14:30:09 2025] [::1]:63501 Accepted
+[Mon Jun 16 14:30:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:30:10 2025] [::1]:63501 [200]: GET /api/verify-email?token=1861c7dba8939229e77f88f7022a8b14154ccf74431d0bc5d61ff00cbe1168b1
+[Mon Jun 16 14:30:10 2025] [::1]:63501 Closing
+[Mon Jun 16 14:35:24 2025] [::1]:63741 Accepted
+[Mon Jun 16 14:35:24 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:35:24 2025] [::1]:63741 [200]: OPTIONS /api/login
+[Mon Jun 16 14:35:24 2025] [::1]:63741 Closing
+[Mon Jun 16 14:35:24 2025] [::1]:63744 Accepted
+[Mon Jun 16 14:35:24 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:35:25 2025] [::1]:63744 [200]: POST /api/login
+[Mon Jun 16 14:35:25 2025] [::1]:63744 Closing
+[Mon Jun 16 14:35:52 2025] [::1]:63794 Accepted
+[Mon Jun 16 14:35:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:35:53 2025] [::1]:63794 [200]: OPTIONS /api/login
+[Mon Jun 16 14:35:53 2025] [::1]:63794 Closing
+[Mon Jun 16 14:35:53 2025] [::1]:63798 Accepted
+[Mon Jun 16 14:35:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:35:53 2025] [::1]:63798 [200]: POST /api/login
+[Mon Jun 16 14:35:53 2025] [::1]:63798 Closing
+[Mon Jun 16 14:42:28 2025] [::1]:64174 Accepted
+[Mon Jun 16 14:42:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:42:29 2025] [::1]:64174 [200]: OPTIONS /api/login
+[Mon Jun 16 14:42:29 2025] [::1]:64174 Closing
+[Mon Jun 16 14:42:29 2025] [::1]:64177 Accepted
+[Mon Jun 16 14:42:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:42:29 2025] [::1]:64177 [200]: POST /api/login
+[Mon Jun 16 14:42:29 2025] [::1]:64177 Closing
+[Mon Jun 16 14:43:00 2025] [::1]:64226 Accepted
+[Mon Jun 16 14:43:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:43:01 2025] [::1]:64226 [200]: OPTIONS /api/login
+[Mon Jun 16 14:43:01 2025] [::1]:64226 Closing
+[Mon Jun 16 14:43:01 2025] [::1]:64229 Accepted
+[Mon Jun 16 14:43:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:43:01 2025] [::1]:64229 [200]: POST /api/login
+[Mon Jun 16 14:43:01 2025] [::1]:64229 Closing
+[Mon Jun 16 14:46:40 2025] [::1]:64409 Accepted
+[Mon Jun 16 14:46:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:46:40 2025] [::1]:64409 [200]: OPTIONS /api/login
+[Mon Jun 16 14:46:40 2025] [::1]:64409 Closing
+[Mon Jun 16 14:46:40 2025] [::1]:64412 Accepted
+[Mon Jun 16 14:46:41 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:46:41 2025] [::1]:64412 [200]: POST /api/login
+[Mon Jun 16 14:46:41 2025] [::1]:64412 Closing
+[Mon Jun 16 14:47:15 2025] [::1]:64471 Accepted
+[Mon Jun 16 14:47:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:47:16 2025] [::1]:64471 [200]: OPTIONS /api/login
+[Mon Jun 16 14:47:16 2025] [::1]:64471 Closing
+[Mon Jun 16 14:47:16 2025] [::1]:64474 Accepted
+[Mon Jun 16 14:47:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 14:47:17 2025] [::1]:64474 [200]: POST /api/login
+[Mon Jun 16 14:47:17 2025] [::1]:64474 Closing
+[Mon Jun 16 15:17:29 2025] [::1]:65167 Accepted
+[Mon Jun 16 15:17:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:17:29 2025] [::1]:65167 [200]: OPTIONS /api/login
+[Mon Jun 16 15:17:29 2025] [::1]:65167 Closing
+[Mon Jun 16 15:17:29 2025] [::1]:65170 Accepted
+[Mon Jun 16 15:17:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:17:30 2025] [::1]:65170 [200]: POST /api/login
+[Mon Jun 16 15:17:30 2025] [::1]:65170 Closing
+[Mon Jun 16 15:19:45 2025] [::1]:65258 Accepted
+[Mon Jun 16 15:19:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:19:46 2025] [::1]:65258 [200]: OPTIONS /api/login
+[Mon Jun 16 15:19:46 2025] [::1]:65258 Closing
+[Mon Jun 16 15:19:46 2025] [::1]:65261 Accepted
+[Mon Jun 16 15:19:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:19:46 2025] [::1]:65261 [200]: POST /api/login
+[Mon Jun 16 15:19:47 2025] [::1]:65261 Closing
+[Mon Jun 16 15:20:30 2025] [::1]:65305 Accepted
+[Mon Jun 16 15:20:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:20:30 2025] [::1]:65305 [200]: OPTIONS /api/login
+[Mon Jun 16 15:20:30 2025] [::1]:65305 Closing
+[Mon Jun 16 15:20:30 2025] [::1]:65308 Accepted
+[Mon Jun 16 15:20:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:20:31 2025] [::1]:65308 [200]: POST /api/login
+[Mon Jun 16 15:20:31 2025] [::1]:65308 Closing
+[Mon Jun 16 15:21:03 2025] [::1]:65359 Accepted
+[Mon Jun 16 15:21:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:21:03 2025] [::1]:65359 [200]: OPTIONS /api/login
+[Mon Jun 16 15:21:03 2025] [::1]:65359 Closing
+[Mon Jun 16 15:21:03 2025] [::1]:65362 Accepted
+[Mon Jun 16 15:21:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:21:04 2025] [::1]:65362 [200]: POST /api/login
+[Mon Jun 16 15:21:04 2025] [::1]:65362 Closing
+[Mon Jun 16 15:22:52 2025] [::1]:65469 Accepted
+[Mon Jun 16 15:22:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:22:52 2025] [::1]:65469 [200]: OPTIONS /api/login
+[Mon Jun 16 15:22:52 2025] [::1]:65469 Closing
+[Mon Jun 16 15:22:52 2025] [::1]:65472 Accepted
+[Mon Jun 16 15:22:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:22:53 2025] [::1]:65472 [200]: POST /api/login
+[Mon Jun 16 15:22:53 2025] [::1]:65472 Closing
+[Mon Jun 16 15:23:05 2025] [::1]:65511 Accepted
+[Mon Jun 16 15:23:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:23:05 2025] [::1]:65511 [200]: OPTIONS /api/login
+[Mon Jun 16 15:23:05 2025] [::1]:65511 Closing
+[Mon Jun 16 15:23:05 2025] [::1]:65514 Accepted
+[Mon Jun 16 15:23:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:23:06 2025] [::1]:65514 [200]: POST /api/login
+[Mon Jun 16 15:23:06 2025] [::1]:65514 Closing
+[Mon Jun 16 15:25:59 2025] [::1]:49213 Accepted
+[Mon Jun 16 15:25:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:25:59 2025] [::1]:49213 [200]: OPTIONS /api/login
+[Mon Jun 16 15:25:59 2025] [::1]:49213 Closing
+[Mon Jun 16 15:25:59 2025] [::1]:49216 Accepted
+[Mon Jun 16 15:25:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:26:00 2025] [::1]:49216 [200]: POST /api/login
+[Mon Jun 16 15:26:00 2025] [::1]:49216 Closing
+[Mon Jun 16 15:40:36 2025] [::1]:49793 Accepted
+[Mon Jun 16 15:40:36 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:40:36 2025] [::1]:49793 [200]: OPTIONS /api/login
+[Mon Jun 16 15:40:36 2025] [::1]:49793 Closing
+[Mon Jun 16 15:40:36 2025] [::1]:49796 Accepted
+[Mon Jun 16 15:40:37 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:40:37 2025] [::1]:49796 [200]: POST /api/login
+[Mon Jun 16 15:40:37 2025] [::1]:49796 Closing
+[Mon Jun 16 15:41:33 2025] [::1]:49872 Accepted
+[Mon Jun 16 15:41:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:41:34 2025] [::1]:49872 [200]: OPTIONS /api/login
+[Mon Jun 16 15:41:34 2025] [::1]:49872 Closing
+[Mon Jun 16 15:41:34 2025] [::1]:49875 Accepted
+[Mon Jun 16 15:41:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:41:34 2025] [::1]:49875 [200]: POST /api/login
+[Mon Jun 16 15:41:34 2025] [::1]:49875 Closing
+[Mon Jun 16 15:41:41 2025] [::1]:49914 Accepted
+[Mon Jun 16 15:41:42 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:41:42 2025] [::1]:49914 [200]: OPTIONS /api/login
+[Mon Jun 16 15:41:42 2025] [::1]:49914 Closing
+[Mon Jun 16 15:41:42 2025] [::1]:49917 Accepted
+[Mon Jun 16 15:41:42 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Mon Jun 16 15:41:43 2025] [::1]:49917 [200]: POST /api/login
+[Mon Jun 16 15:41:43 2025] [::1]:49917 Closing
