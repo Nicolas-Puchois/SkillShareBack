@@ -126,7 +126,8 @@ class UserController
                 'token' => $token,
                 'user' => [
                     'avatar' => $user->getAvatar(),
-                    'username' => $user->getUsername()
+                    'username' => $user->getUsername(),
+                    'role' => $user->getRoles()
                 ]
             ]);
         } catch (\Exception $e) {

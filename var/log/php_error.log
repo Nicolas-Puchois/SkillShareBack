@@ -1,237 +1,354 @@
-[Mon Jun 16 12:14:42 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
-[Mon Jun 16 13:06:37 2025] [::1]:62289 Accepted
-[Mon Jun 16 13:06:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:06:38 2025] [::1]:62289 [200]: OPTIONS /api/register
-[Mon Jun 16 13:06:38 2025] [::1]:62289 Closing
-[Mon Jun 16 13:06:38 2025] [::1]:62292 Accepted
-[Mon Jun 16 13:06:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:06:38 2025] [::1]:62292 [200]: POST /api/register
-[Mon Jun 16 13:06:38 2025] [::1]:62292 Closing
-[Mon Jun 16 13:06:52 2025] [::1]:62331 Accepted
-[Mon Jun 16 13:06:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:06:52 2025] [::1]:62331 [200]: OPTIONS /api/verify-email?token=dd17db92b1a682da7ae3d92336e8efac690ca8c9dc20023be7f15851f75e48a3
-[Mon Jun 16 13:06:52 2025] [::1]:62331 Closing
-[Mon Jun 16 13:06:53 2025] [::1]:62334 Accepted
-[Mon Jun 16 13:06:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:06:53 2025] [::1]:62334 [200]: GET /api/verify-email?token=dd17db92b1a682da7ae3d92336e8efac690ca8c9dc20023be7f15851f75e48a3
-[Mon Jun 16 13:06:53 2025] [::1]:62334 Closing
-[Mon Jun 16 13:08:42 2025] [::1]:62362 Accepted
-[Mon Jun 16 13:08:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:08:43 2025] [::1]:62362 [200]: OPTIONS /api/login
-[Mon Jun 16 13:08:43 2025] [::1]:62362 Closing
-[Mon Jun 16 13:08:43 2025] [::1]:62365 Accepted
-[Mon Jun 16 13:08:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:08:43 2025] [::1]:62365 [200]: POST /api/login
-[Mon Jun 16 13:08:43 2025] [::1]:62365 Closing
-[Mon Jun 16 13:21:56 2025] [::1]:62503 Accepted
-[Mon Jun 16 13:21:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:21:57 2025] [::1]:62503 [200]: OPTIONS /api/login
-[Mon Jun 16 13:21:57 2025] [::1]:62503 Closing
-[Mon Jun 16 13:21:57 2025] [::1]:62506 Accepted
-[Mon Jun 16 13:21:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:21:57 2025] [::1]:62506 [200]: POST /api/login
-[Mon Jun 16 13:21:57 2025] [::1]:62506 Closing
-[Mon Jun 16 13:22:03 2025] [::1]:62512 Accepted
-[Mon Jun 16 13:22:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:22:03 2025] Erreur inscription: Email ou mot de passe incorrect !
-[Mon Jun 16 13:22:03 2025] [::1]:62512 [400]: POST /api/login
-[Mon Jun 16 13:22:03 2025] [::1]:62512 Closing
-[Mon Jun 16 13:23:10 2025] [::1]:62554 Accepted
-[Mon Jun 16 13:23:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:23:10 2025] [::1]:62554 [200]: OPTIONS /api/login
-[Mon Jun 16 13:23:10 2025] [::1]:62554 Closing
-[Mon Jun 16 13:23:10 2025] [::1]:62557 Accepted
-[Mon Jun 16 13:23:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:23:11 2025] Erreur inscription: Email ou mot de passe incorrect !
-[Mon Jun 16 13:23:11 2025] [::1]:62557 [400]: POST /api/login
-[Mon Jun 16 13:23:11 2025] [::1]:62557 Closing
-[Mon Jun 16 13:30:39 2025] [::1]:62699 Accepted
-[Mon Jun 16 13:30:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:30:39 2025] [::1]:62699 [200]: OPTIONS /api/login
-[Mon Jun 16 13:30:39 2025] [::1]:62699 Closing
-[Mon Jun 16 13:30:39 2025] [::1]:62702 Accepted
-[Mon Jun 16 13:30:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:30:40 2025] Erreur inscription: Email ou mot de passe incorrect !
-[Mon Jun 16 13:30:40 2025] [::1]:62702 [400]: POST /api/login
-[Mon Jun 16 13:30:40 2025] [::1]:62702 Closing
-[Mon Jun 16 13:31:17 2025] [::1]:62709 Accepted
-[Mon Jun 16 13:31:17 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:31:17 2025] [::1]:62709 [200]: OPTIONS /api/login
-[Mon Jun 16 13:31:17 2025] [::1]:62709 Closing
-[Mon Jun 16 13:31:17 2025] [::1]:62712 Accepted
-[Mon Jun 16 13:31:18 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:31:18 2025] [::1]:62712 [200]: POST /api/login
-[Mon Jun 16 13:31:18 2025] [::1]:62712 Closing
-[Mon Jun 16 13:32:43 2025] [::1]:62738 Accepted
-[Mon Jun 16 13:32:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:32:43 2025] [::1]:62738 [200]: OPTIONS /api/login
-[Mon Jun 16 13:32:43 2025] [::1]:62738 Closing
-[Mon Jun 16 13:32:43 2025] [::1]:62741 Accepted
-[Mon Jun 16 13:32:44 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:32:44 2025] Erreur inscription: Email ou mot de passe incorrect !
-[Mon Jun 16 13:32:44 2025] [::1]:62741 [400]: POST /api/login
-[Mon Jun 16 13:32:44 2025] [::1]:62741 Closing
-[Mon Jun 16 13:32:45 2025] [::1]:62745 Accepted
-[Mon Jun 16 13:32:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:32:46 2025] [::1]:62745 [200]: POST /api/login
-[Mon Jun 16 13:32:46 2025] [::1]:62745 Closing
-[Mon Jun 16 13:33:27 2025] [::1]:62837 Accepted
-[Mon Jun 16 13:33:28 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:33:28 2025] [::1]:62837 [200]: OPTIONS /api/login
-[Mon Jun 16 13:33:28 2025] [::1]:62837 Closing
-[Mon Jun 16 13:33:28 2025] [::1]:62840 Accepted
-[Mon Jun 16 13:33:28 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:33:29 2025] [::1]:62840 [200]: POST /api/login
-[Mon Jun 16 13:33:29 2025] [::1]:62840 Closing
-[Mon Jun 16 13:46:57 2025] [::1]:63008 Accepted
-[Mon Jun 16 13:46:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:46:57 2025] [::1]:63008 [200]: OPTIONS /api/login
-[Mon Jun 16 13:46:57 2025] [::1]:63008 Closing
-[Mon Jun 16 13:46:57 2025] [::1]:63011 Accepted
-[Mon Jun 16 13:46:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 13:46:58 2025] [::1]:63011 [200]: POST /api/login
-[Mon Jun 16 13:46:58 2025] [::1]:63011 Closing
-[Mon Jun 16 14:28:39 2025] [::1]:63416 Accepted
-[Mon Jun 16 14:28:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:28:39 2025] [::1]:63416 [200]: OPTIONS /api/register
-[Mon Jun 16 14:28:39 2025] [::1]:63416 Closing
-[Mon Jun 16 14:28:39 2025] [::1]:63419 Accepted
-[Mon Jun 16 14:28:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:28:40 2025] [::1]:63419 [200]: POST /api/register
-[Mon Jun 16 14:28:40 2025] [::1]:63419 Closing
-[Mon Jun 16 14:30:09 2025] [::1]:63497 Accepted
-[Mon Jun 16 14:30:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:30:09 2025] [::1]:63497 [200]: OPTIONS /api/verify-email?token=1861c7dba8939229e77f88f7022a8b14154ccf74431d0bc5d61ff00cbe1168b1
-[Mon Jun 16 14:30:09 2025] [::1]:63497 Closing
-[Mon Jun 16 14:30:09 2025] [::1]:63501 Accepted
-[Mon Jun 16 14:30:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:30:10 2025] [::1]:63501 [200]: GET /api/verify-email?token=1861c7dba8939229e77f88f7022a8b14154ccf74431d0bc5d61ff00cbe1168b1
-[Mon Jun 16 14:30:10 2025] [::1]:63501 Closing
-[Mon Jun 16 14:35:24 2025] [::1]:63741 Accepted
-[Mon Jun 16 14:35:24 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:35:24 2025] [::1]:63741 [200]: OPTIONS /api/login
-[Mon Jun 16 14:35:24 2025] [::1]:63741 Closing
-[Mon Jun 16 14:35:24 2025] [::1]:63744 Accepted
-[Mon Jun 16 14:35:24 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:35:25 2025] [::1]:63744 [200]: POST /api/login
-[Mon Jun 16 14:35:25 2025] [::1]:63744 Closing
-[Mon Jun 16 14:35:52 2025] [::1]:63794 Accepted
-[Mon Jun 16 14:35:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:35:53 2025] [::1]:63794 [200]: OPTIONS /api/login
-[Mon Jun 16 14:35:53 2025] [::1]:63794 Closing
-[Mon Jun 16 14:35:53 2025] [::1]:63798 Accepted
-[Mon Jun 16 14:35:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:35:53 2025] [::1]:63798 [200]: POST /api/login
-[Mon Jun 16 14:35:53 2025] [::1]:63798 Closing
-[Mon Jun 16 14:42:28 2025] [::1]:64174 Accepted
-[Mon Jun 16 14:42:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:42:29 2025] [::1]:64174 [200]: OPTIONS /api/login
-[Mon Jun 16 14:42:29 2025] [::1]:64174 Closing
-[Mon Jun 16 14:42:29 2025] [::1]:64177 Accepted
-[Mon Jun 16 14:42:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:42:29 2025] [::1]:64177 [200]: POST /api/login
-[Mon Jun 16 14:42:29 2025] [::1]:64177 Closing
-[Mon Jun 16 14:43:00 2025] [::1]:64226 Accepted
-[Mon Jun 16 14:43:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:43:01 2025] [::1]:64226 [200]: OPTIONS /api/login
-[Mon Jun 16 14:43:01 2025] [::1]:64226 Closing
-[Mon Jun 16 14:43:01 2025] [::1]:64229 Accepted
-[Mon Jun 16 14:43:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:43:01 2025] [::1]:64229 [200]: POST /api/login
-[Mon Jun 16 14:43:01 2025] [::1]:64229 Closing
-[Mon Jun 16 14:46:40 2025] [::1]:64409 Accepted
-[Mon Jun 16 14:46:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:46:40 2025] [::1]:64409 [200]: OPTIONS /api/login
-[Mon Jun 16 14:46:40 2025] [::1]:64409 Closing
-[Mon Jun 16 14:46:40 2025] [::1]:64412 Accepted
-[Mon Jun 16 14:46:41 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:46:41 2025] [::1]:64412 [200]: POST /api/login
-[Mon Jun 16 14:46:41 2025] [::1]:64412 Closing
-[Mon Jun 16 14:47:15 2025] [::1]:64471 Accepted
-[Mon Jun 16 14:47:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:47:16 2025] [::1]:64471 [200]: OPTIONS /api/login
-[Mon Jun 16 14:47:16 2025] [::1]:64471 Closing
-[Mon Jun 16 14:47:16 2025] [::1]:64474 Accepted
-[Mon Jun 16 14:47:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 14:47:17 2025] [::1]:64474 [200]: POST /api/login
-[Mon Jun 16 14:47:17 2025] [::1]:64474 Closing
-[Mon Jun 16 15:17:29 2025] [::1]:65167 Accepted
-[Mon Jun 16 15:17:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:17:29 2025] [::1]:65167 [200]: OPTIONS /api/login
-[Mon Jun 16 15:17:29 2025] [::1]:65167 Closing
-[Mon Jun 16 15:17:29 2025] [::1]:65170 Accepted
-[Mon Jun 16 15:17:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:17:30 2025] [::1]:65170 [200]: POST /api/login
-[Mon Jun 16 15:17:30 2025] [::1]:65170 Closing
-[Mon Jun 16 15:19:45 2025] [::1]:65258 Accepted
-[Mon Jun 16 15:19:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:19:46 2025] [::1]:65258 [200]: OPTIONS /api/login
-[Mon Jun 16 15:19:46 2025] [::1]:65258 Closing
-[Mon Jun 16 15:19:46 2025] [::1]:65261 Accepted
-[Mon Jun 16 15:19:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:19:46 2025] [::1]:65261 [200]: POST /api/login
-[Mon Jun 16 15:19:47 2025] [::1]:65261 Closing
-[Mon Jun 16 15:20:30 2025] [::1]:65305 Accepted
-[Mon Jun 16 15:20:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:20:30 2025] [::1]:65305 [200]: OPTIONS /api/login
-[Mon Jun 16 15:20:30 2025] [::1]:65305 Closing
-[Mon Jun 16 15:20:30 2025] [::1]:65308 Accepted
-[Mon Jun 16 15:20:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:20:31 2025] [::1]:65308 [200]: POST /api/login
-[Mon Jun 16 15:20:31 2025] [::1]:65308 Closing
-[Mon Jun 16 15:21:03 2025] [::1]:65359 Accepted
-[Mon Jun 16 15:21:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:21:03 2025] [::1]:65359 [200]: OPTIONS /api/login
-[Mon Jun 16 15:21:03 2025] [::1]:65359 Closing
-[Mon Jun 16 15:21:03 2025] [::1]:65362 Accepted
-[Mon Jun 16 15:21:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:21:04 2025] [::1]:65362 [200]: POST /api/login
-[Mon Jun 16 15:21:04 2025] [::1]:65362 Closing
-[Mon Jun 16 15:22:52 2025] [::1]:65469 Accepted
-[Mon Jun 16 15:22:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:22:52 2025] [::1]:65469 [200]: OPTIONS /api/login
-[Mon Jun 16 15:22:52 2025] [::1]:65469 Closing
-[Mon Jun 16 15:22:52 2025] [::1]:65472 Accepted
-[Mon Jun 16 15:22:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:22:53 2025] [::1]:65472 [200]: POST /api/login
-[Mon Jun 16 15:22:53 2025] [::1]:65472 Closing
-[Mon Jun 16 15:23:05 2025] [::1]:65511 Accepted
-[Mon Jun 16 15:23:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:23:05 2025] [::1]:65511 [200]: OPTIONS /api/login
-[Mon Jun 16 15:23:05 2025] [::1]:65511 Closing
-[Mon Jun 16 15:23:05 2025] [::1]:65514 Accepted
-[Mon Jun 16 15:23:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:23:06 2025] [::1]:65514 [200]: POST /api/login
-[Mon Jun 16 15:23:06 2025] [::1]:65514 Closing
-[Mon Jun 16 15:25:59 2025] [::1]:49213 Accepted
-[Mon Jun 16 15:25:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:25:59 2025] [::1]:49213 [200]: OPTIONS /api/login
-[Mon Jun 16 15:25:59 2025] [::1]:49213 Closing
-[Mon Jun 16 15:25:59 2025] [::1]:49216 Accepted
-[Mon Jun 16 15:25:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:26:00 2025] [::1]:49216 [200]: POST /api/login
-[Mon Jun 16 15:26:00 2025] [::1]:49216 Closing
-[Mon Jun 16 15:40:36 2025] [::1]:49793 Accepted
-[Mon Jun 16 15:40:36 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:40:36 2025] [::1]:49793 [200]: OPTIONS /api/login
-[Mon Jun 16 15:40:36 2025] [::1]:49793 Closing
-[Mon Jun 16 15:40:36 2025] [::1]:49796 Accepted
-[Mon Jun 16 15:40:37 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:40:37 2025] [::1]:49796 [200]: POST /api/login
-[Mon Jun 16 15:40:37 2025] [::1]:49796 Closing
-[Mon Jun 16 15:41:33 2025] [::1]:49872 Accepted
-[Mon Jun 16 15:41:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:41:34 2025] [::1]:49872 [200]: OPTIONS /api/login
-[Mon Jun 16 15:41:34 2025] [::1]:49872 Closing
-[Mon Jun 16 15:41:34 2025] [::1]:49875 Accepted
-[Mon Jun 16 15:41:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:41:34 2025] [::1]:49875 [200]: POST /api/login
-[Mon Jun 16 15:41:34 2025] [::1]:49875 Closing
-[Mon Jun 16 15:41:41 2025] [::1]:49914 Accepted
-[Mon Jun 16 15:41:42 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:41:42 2025] [::1]:49914 [200]: OPTIONS /api/login
-[Mon Jun 16 15:41:42 2025] [::1]:49914 Closing
-[Mon Jun 16 15:41:42 2025] [::1]:49917 Accepted
-[Mon Jun 16 15:41:42 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Mon Jun 16 15:41:43 2025] [::1]:49917 [200]: POST /api/login
-[Mon Jun 16 15:41:43 2025] [::1]:49917 Closing
+[Tue Jun 17 08:22:28 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
+[Tue Jun 17 09:14:45 2025] [::1]:54735 Accepted
+[Tue Jun 17 09:14:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:14:45 2025] [::1]:54735 [200]: OPTIONS /api/login
+[Tue Jun 17 09:14:45 2025] [::1]:54735 Closing
+[Tue Jun 17 09:14:45 2025] [::1]:54738 Accepted
+[Tue Jun 17 09:14:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:14:46 2025] [::1]:54738 [200]: POST /api/login
+[Tue Jun 17 09:14:46 2025] [::1]:54738 Closing
+[Tue Jun 17 09:17:38 2025] [::1]:54859 Accepted
+[Tue Jun 17 09:17:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:17:39 2025] [::1]:54859 [200]: OPTIONS /api/login
+[Tue Jun 17 09:17:39 2025] [::1]:54859 Closing
+[Tue Jun 17 09:17:39 2025] [::1]:54863 Accepted
+[Tue Jun 17 09:17:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:17:39 2025] [::1]:54863 [200]: POST /api/login
+[Tue Jun 17 09:17:39 2025] [::1]:54863 Closing
+[Tue Jun 17 09:20:35 2025] [::1]:55058 Accepted
+[Tue Jun 17 09:20:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:20:35 2025] [::1]:55058 [200]: OPTIONS /api/login
+[Tue Jun 17 09:20:35 2025] [::1]:55058 Closing
+[Tue Jun 17 09:20:35 2025] [::1]:55061 Accepted
+[Tue Jun 17 09:20:36 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:20:36 2025] [::1]:55061 [200]: POST /api/login
+[Tue Jun 17 09:20:36 2025] [::1]:55061 Closing
+[Tue Jun 17 09:24:29 2025] [::1]:55255 Accepted
+[Tue Jun 17 09:24:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:24:30 2025] [::1]:55255 [200]: OPTIONS /api/login
+[Tue Jun 17 09:24:30 2025] [::1]:55255 Closing
+[Tue Jun 17 09:24:30 2025] [::1]:55258 Accepted
+[Tue Jun 17 09:24:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:24:30 2025] [::1]:55258 [200]: POST /api/login
+[Tue Jun 17 09:24:30 2025] [::1]:55258 Closing
+[Tue Jun 17 09:36:19 2025] [::1]:55492 Accepted
+[Tue Jun 17 09:36:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:36:20 2025] [::1]:55492 [200]: OPTIONS /api/login
+[Tue Jun 17 09:36:20 2025] [::1]:55492 Closing
+[Tue Jun 17 09:36:20 2025] [::1]:55495 Accepted
+[Tue Jun 17 09:36:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:36:21 2025] [::1]:55495 [200]: POST /api/login
+[Tue Jun 17 09:36:21 2025] [::1]:55495 Closing
+[Tue Jun 17 09:36:29 2025] [::1]:55561 Accepted
+[Tue Jun 17 09:36:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:36:30 2025] [::1]:55561 [200]: OPTIONS /api/login
+[Tue Jun 17 09:36:30 2025] [::1]:55561 Closing
+[Tue Jun 17 09:36:30 2025] [::1]:55564 Accepted
+[Tue Jun 17 09:36:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 09:36:30 2025] [::1]:55564 [200]: POST /api/login
+[Tue Jun 17 09:36:30 2025] [::1]:55564 Closing
+[Tue Jun 17 11:00:24 2025] [::1]:56773 Accepted
+[Tue Jun 17 11:00:24 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:00:24 2025] [::1]:56773 [200]: OPTIONS /api/login
+[Tue Jun 17 11:00:24 2025] [::1]:56773 Closing
+[Tue Jun 17 11:00:24 2025] [::1]:56776 Accepted
+[Tue Jun 17 11:00:25 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:00:25 2025] [::1]:56776 [200]: POST /api/login
+[Tue Jun 17 11:00:25 2025] [::1]:56776 Closing
+[Tue Jun 17 11:00:47 2025] [::1]:56845 Accepted
+[Tue Jun 17 11:00:48 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:00:48 2025] [::1]:56845 [200]: OPTIONS /api/login
+[Tue Jun 17 11:00:48 2025] [::1]:56845 Closing
+[Tue Jun 17 11:00:48 2025] [::1]:56848 Accepted
+[Tue Jun 17 11:00:48 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:00:48 2025] [::1]:56848 [200]: POST /api/login
+[Tue Jun 17 11:00:48 2025] [::1]:56848 Closing
+[Tue Jun 17 11:02:11 2025] [::1]:56909 Accepted
+[Tue Jun 17 11:02:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:02:11 2025] [::1]:56909 [200]: OPTIONS /api/login
+[Tue Jun 17 11:02:11 2025] [::1]:56909 Closing
+[Tue Jun 17 11:02:11 2025] [::1]:56912 Accepted
+[Tue Jun 17 11:02:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:02:12 2025] [::1]:56912 [200]: POST /api/login
+[Tue Jun 17 11:02:12 2025] [::1]:56912 Closing
+[Tue Jun 17 11:02:22 2025] [::1]:57016 Accepted
+[Tue Jun 17 11:02:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:02:23 2025] [::1]:57016 [200]: OPTIONS /api/login
+[Tue Jun 17 11:02:23 2025] [::1]:57016 Closing
+[Tue Jun 17 11:02:23 2025] [::1]:57019 Accepted
+[Tue Jun 17 11:02:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:02:24 2025] [::1]:57019 [200]: POST /api/login
+[Tue Jun 17 11:02:24 2025] [::1]:57019 Closing
+[Tue Jun 17 11:21:46 2025] [::1]:57404 Accepted
+[Tue Jun 17 11:21:47 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:21:47 2025] [::1]:57404 [200]: OPTIONS /api/login
+[Tue Jun 17 11:21:47 2025] [::1]:57404 Closing
+[Tue Jun 17 11:21:47 2025] [::1]:57407 Accepted
+[Tue Jun 17 11:21:47 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:21:47 2025] [::1]:57407 [200]: POST /api/login
+[Tue Jun 17 11:21:47 2025] [::1]:57407 Closing
+[Tue Jun 17 11:24:56 2025] [::1]:57918 Accepted
+[Tue Jun 17 11:24:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:24:57 2025] [::1]:57918 [200]: OPTIONS /api/login
+[Tue Jun 17 11:24:57 2025] [::1]:57918 Closing
+[Tue Jun 17 11:24:57 2025] [::1]:57921 Accepted
+[Tue Jun 17 11:24:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:24:58 2025] [::1]:57921 [200]: POST /api/login
+[Tue Jun 17 11:24:58 2025] [::1]:57921 Closing
+[Tue Jun 17 11:25:35 2025] [::1]:58032 Accepted
+[Tue Jun 17 11:25:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:25:35 2025] [::1]:58032 [200]: OPTIONS /api/login
+[Tue Jun 17 11:25:35 2025] [::1]:58032 Closing
+[Tue Jun 17 11:25:35 2025] [::1]:58035 Accepted
+[Tue Jun 17 11:25:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:25:36 2025] [::1]:58035 [200]: POST /api/login
+[Tue Jun 17 11:25:36 2025] [::1]:58035 Closing
+[Tue Jun 17 11:27:50 2025] [::1]:58247 Accepted
+[Tue Jun 17 11:27:51 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:27:51 2025] [::1]:58247 [200]: OPTIONS /api/login
+[Tue Jun 17 11:27:51 2025] [::1]:58247 Closing
+[Tue Jun 17 11:27:51 2025] [::1]:58250 Accepted
+[Tue Jun 17 11:27:51 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:27:51 2025] [::1]:58250 [200]: POST /api/login
+[Tue Jun 17 11:27:51 2025] [::1]:58250 Closing
+[Tue Jun 17 11:27:59 2025] [::1]:58286 Accepted
+[Tue Jun 17 11:28:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:28:00 2025] [::1]:58286 [200]: OPTIONS /api/login
+[Tue Jun 17 11:28:00 2025] [::1]:58286 Closing
+[Tue Jun 17 11:28:00 2025] [::1]:58289 Accepted
+[Tue Jun 17 11:28:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:28:01 2025] [::1]:58289 [200]: POST /api/login
+[Tue Jun 17 11:28:01 2025] [::1]:58289 Closing
+[Tue Jun 17 11:46:29 2025] [::1]:58856 Accepted
+[Tue Jun 17 11:46:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:46:30 2025] [::1]:58856 [200]: OPTIONS /api/login
+[Tue Jun 17 11:46:30 2025] [::1]:58856 Closing
+[Tue Jun 17 11:46:30 2025] [::1]:58859 Accepted
+[Tue Jun 17 11:46:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:46:30 2025] [::1]:58859 [200]: POST /api/login
+[Tue Jun 17 11:46:30 2025] [::1]:58859 Closing
+[Tue Jun 17 11:46:58 2025] [::1]:58919 Accepted
+[Tue Jun 17 11:46:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:46:59 2025] [::1]:58919 [200]: OPTIONS /api/register
+[Tue Jun 17 11:46:59 2025] [::1]:58919 Closing
+[Tue Jun 17 11:46:59 2025] [::1]:58922 Accepted
+[Tue Jun 17 11:46:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:46:59 2025] [::1]:58922 [200]: POST /api/register
+[Tue Jun 17 11:46:59 2025] [::1]:58922 Closing
+[Tue Jun 17 11:47:20 2025] [::1]:58959 Accepted
+[Tue Jun 17 11:47:21 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:47:21 2025] [::1]:58959 [200]: OPTIONS /api/verify-email?token=5da2f06068a7e28ad05ceee7ad154d222a0a2caf5761a8aafa4fe04ec0980bda
+[Tue Jun 17 11:47:21 2025] [::1]:58959 Closing
+[Tue Jun 17 11:47:21 2025] [::1]:58964 Accepted
+[Tue Jun 17 11:47:21 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:47:21 2025] [::1]:58964 [200]: GET /api/verify-email?token=5da2f06068a7e28ad05ceee7ad154d222a0a2caf5761a8aafa4fe04ec0980bda
+[Tue Jun 17 11:47:21 2025] [::1]:58964 Closing
+[Tue Jun 17 11:47:54 2025] [::1]:58997 Accepted
+[Tue Jun 17 11:47:54 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:47:54 2025] [::1]:58997 [200]: OPTIONS /api/login
+[Tue Jun 17 11:47:54 2025] [::1]:58997 Closing
+[Tue Jun 17 11:47:54 2025] [::1]:59000 Accepted
+[Tue Jun 17 11:47:55 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:47:55 2025] [::1]:59000 [200]: POST /api/login
+[Tue Jun 17 11:47:55 2025] [::1]:59000 Closing
+[Tue Jun 17 11:49:45 2025] [::1]:59071 Accepted
+[Tue Jun 17 11:49:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:49:45 2025] [::1]:59071 [200]: OPTIONS /api/login
+[Tue Jun 17 11:49:45 2025] [::1]:59071 Closing
+[Tue Jun 17 11:49:45 2025] [::1]:59074 Accepted
+[Tue Jun 17 11:49:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:49:46 2025] [::1]:59074 [200]: POST /api/login
+[Tue Jun 17 11:49:46 2025] [::1]:59074 Closing
+[Tue Jun 17 11:50:12 2025] [::1]:59114 Accepted
+[Tue Jun 17 11:50:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:50:13 2025] [::1]:59114 [200]: OPTIONS /api/login
+[Tue Jun 17 11:50:13 2025] [::1]:59114 Closing
+[Tue Jun 17 11:50:13 2025] [::1]:59117 Accepted
+[Tue Jun 17 11:50:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:50:13 2025] [::1]:59117 [200]: POST /api/login
+[Tue Jun 17 11:50:13 2025] [::1]:59117 Closing
+[Tue Jun 17 11:50:57 2025] [::1]:59159 Accepted
+[Tue Jun 17 11:50:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:50:58 2025] [::1]:59159 [200]: OPTIONS /api/login
+[Tue Jun 17 11:50:58 2025] [::1]:59159 Closing
+[Tue Jun 17 11:50:58 2025] [::1]:59162 Accepted
+[Tue Jun 17 11:50:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:50:59 2025] [::1]:59162 [200]: POST /api/login
+[Tue Jun 17 11:50:59 2025] [::1]:59162 Closing
+[Tue Jun 17 11:53:12 2025] [::1]:59289 Accepted
+[Tue Jun 17 11:53:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:53:13 2025] [::1]:59289 [200]: OPTIONS /api/login
+[Tue Jun 17 11:53:13 2025] [::1]:59289 Closing
+[Tue Jun 17 11:53:13 2025] [::1]:59292 Accepted
+[Tue Jun 17 11:53:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:53:13 2025] [::1]:59292 [200]: POST /api/login
+[Tue Jun 17 11:53:13 2025] [::1]:59292 Closing
+[Tue Jun 17 11:56:21 2025] [::1]:59417 Accepted
+[Tue Jun 17 11:56:21 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:56:21 2025] [::1]:59417 [200]: OPTIONS /api/login
+[Tue Jun 17 11:56:21 2025] [::1]:59417 Closing
+[Tue Jun 17 11:56:21 2025] [::1]:59420 Accepted
+[Tue Jun 17 11:56:22 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:56:22 2025] [::1]:59420 [200]: POST /api/login
+[Tue Jun 17 11:56:22 2025] [::1]:59420 Closing
+[Tue Jun 17 11:56:58 2025] [::1]:59485 Accepted
+[Tue Jun 17 11:56:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:56:59 2025] [::1]:59485 [200]: OPTIONS /api/login
+[Tue Jun 17 11:56:59 2025] [::1]:59485 Closing
+[Tue Jun 17 11:56:59 2025] [::1]:59488 Accepted
+[Tue Jun 17 11:56:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:56:59 2025] Erreur inscription: Email ou mot de passe incorrect !
+[Tue Jun 17 11:56:59 2025] [::1]:59488 [400]: POST /api/login
+[Tue Jun 17 11:56:59 2025] [::1]:59488 Closing
+[Tue Jun 17 11:57:08 2025] [::1]:59493 Accepted
+[Tue Jun 17 11:57:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:57:09 2025] [::1]:59493 [200]: OPTIONS /api/login
+[Tue Jun 17 11:57:09 2025] [::1]:59493 Closing
+[Tue Jun 17 11:57:09 2025] [::1]:59496 Accepted
+[Tue Jun 17 11:57:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:57:09 2025] [::1]:59496 [200]: POST /api/login
+[Tue Jun 17 11:57:09 2025] [::1]:59496 Closing
+[Tue Jun 17 11:57:51 2025] [::1]:59549 Accepted
+[Tue Jun 17 11:57:51 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:57:51 2025] [::1]:59549 [200]: OPTIONS /api/login
+[Tue Jun 17 11:57:51 2025] [::1]:59549 Closing
+[Tue Jun 17 11:57:51 2025] [::1]:59552 Accepted
+[Tue Jun 17 11:57:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:57:52 2025] [::1]:59552 [200]: POST /api/login
+[Tue Jun 17 11:57:52 2025] [::1]:59552 Closing
+[Tue Jun 17 11:58:48 2025] [::1]:59631 Accepted
+[Tue Jun 17 11:58:48 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:58:48 2025] [::1]:59631 [200]: OPTIONS /api/login
+[Tue Jun 17 11:58:48 2025] [::1]:59631 Closing
+[Tue Jun 17 11:58:48 2025] [::1]:59634 Accepted
+[Tue Jun 17 11:58:48 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 11:58:49 2025] [::1]:59634 [200]: POST /api/login
+[Tue Jun 17 11:58:49 2025] [::1]:59634 Closing
+[Tue Jun 17 12:00:49 2025] [::1]:59718 Accepted
+[Tue Jun 17 12:00:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:00:50 2025] [::1]:59718 [200]: OPTIONS /api/login
+[Tue Jun 17 12:00:50 2025] [::1]:59718 Closing
+[Tue Jun 17 12:00:50 2025] [::1]:59721 Accepted
+[Tue Jun 17 12:00:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:00:50 2025] [::1]:59721 [200]: POST /api/login
+[Tue Jun 17 12:00:50 2025] [::1]:59721 Closing
+[Tue Jun 17 12:01:19 2025] [::1]:59781 Accepted
+[Tue Jun 17 12:01:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:01:20 2025] [::1]:59781 [200]: OPTIONS /api/login
+[Tue Jun 17 12:01:20 2025] [::1]:59781 Closing
+[Tue Jun 17 12:01:20 2025] [::1]:59784 Accepted
+[Tue Jun 17 12:01:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:01:21 2025] [::1]:59784 [200]: POST /api/login
+[Tue Jun 17 12:01:21 2025] [::1]:59784 Closing
+[Tue Jun 17 12:01:44 2025] [::1]:59867 Accepted
+[Tue Jun 17 12:01:44 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:01:44 2025] [::1]:59867 [200]: OPTIONS /api/login
+[Tue Jun 17 12:01:44 2025] [::1]:59867 Closing
+[Tue Jun 17 12:01:44 2025] [::1]:59870 Accepted
+[Tue Jun 17 12:01:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:01:45 2025] [::1]:59870 [200]: POST /api/login
+[Tue Jun 17 12:01:45 2025] [::1]:59870 Closing
+[Tue Jun 17 12:03:39 2025] [::1]:59975 Accepted
+[Tue Jun 17 12:03:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:03:39 2025] [::1]:59975 [200]: OPTIONS /api/login
+[Tue Jun 17 12:03:39 2025] [::1]:59975 Closing
+[Tue Jun 17 12:03:39 2025] [::1]:59978 Accepted
+[Tue Jun 17 12:03:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:03:40 2025] [::1]:59978 [200]: POST /api/login
+[Tue Jun 17 12:03:40 2025] [::1]:59978 Closing
+[Tue Jun 17 12:03:49 2025] [::1]:60014 Accepted
+[Tue Jun 17 12:03:49 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:03:49 2025] [::1]:60014 [200]: OPTIONS /api/login
+[Tue Jun 17 12:03:49 2025] [::1]:60014 Closing
+[Tue Jun 17 12:03:49 2025] [::1]:60017 Accepted
+[Tue Jun 17 12:03:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:03:50 2025] [::1]:60017 [200]: POST /api/login
+[Tue Jun 17 12:03:50 2025] [::1]:60017 Closing
+[Tue Jun 17 12:04:33 2025] [::1]:60090 Accepted
+[Tue Jun 17 12:04:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:04:34 2025] [::1]:60090 [200]: OPTIONS /api/login
+[Tue Jun 17 12:04:34 2025] [::1]:60090 Closing
+[Tue Jun 17 12:04:34 2025] [::1]:60093 Accepted
+[Tue Jun 17 12:04:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:04:35 2025] [::1]:60093 [200]: POST /api/login
+[Tue Jun 17 12:04:35 2025] [::1]:60093 Closing
+[Tue Jun 17 12:05:04 2025] [::1]:60156 Accepted
+[Tue Jun 17 12:05:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:05:05 2025] [::1]:60156 [200]: OPTIONS /api/login
+[Tue Jun 17 12:05:05 2025] [::1]:60156 Closing
+[Tue Jun 17 12:05:05 2025] [::1]:60159 Accepted
+[Tue Jun 17 12:05:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:05:05 2025] [::1]:60159 [200]: POST /api/login
+[Tue Jun 17 12:05:05 2025] [::1]:60159 Closing
+[Tue Jun 17 12:05:31 2025] [::1]:60210 Accepted
+[Tue Jun 17 12:05:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:05:32 2025] [::1]:60210 [200]: OPTIONS /api/login
+[Tue Jun 17 12:05:32 2025] [::1]:60210 Closing
+[Tue Jun 17 12:05:32 2025] [::1]:60213 Accepted
+[Tue Jun 17 12:05:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:05:32 2025] [::1]:60213 [200]: POST /api/login
+[Tue Jun 17 12:05:32 2025] [::1]:60213 Closing
+[Tue Jun 17 12:06:13 2025] [::1]:60266 Accepted
+[Tue Jun 17 12:06:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:06:13 2025] [::1]:60266 [200]: OPTIONS /api/login
+[Tue Jun 17 12:06:13 2025] [::1]:60266 Closing
+[Tue Jun 17 12:06:13 2025] [::1]:60269 Accepted
+[Tue Jun 17 12:06:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:06:14 2025] [::1]:60269 [200]: POST /api/login
+[Tue Jun 17 12:06:14 2025] [::1]:60269 Closing
+[Tue Jun 17 12:06:29 2025] [::1]:60317 Accepted
+[Tue Jun 17 12:06:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:06:30 2025] [::1]:60317 [200]: OPTIONS /api/login
+[Tue Jun 17 12:06:30 2025] [::1]:60317 Closing
+[Tue Jun 17 12:06:30 2025] [::1]:60320 Accepted
+[Tue Jun 17 12:06:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:06:30 2025] [::1]:60320 [200]: POST /api/login
+[Tue Jun 17 12:06:30 2025] [::1]:60320 Closing
+[Tue Jun 17 12:11:56 2025] [::1]:60392 Accepted
+[Tue Jun 17 12:11:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:11:57 2025] [::1]:60392 [200]: OPTIONS /api/login
+[Tue Jun 17 12:11:57 2025] [::1]:60392 Closing
+[Tue Jun 17 12:11:57 2025] [::1]:60395 Accepted
+[Tue Jun 17 12:11:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:11:57 2025] [::1]:60395 [200]: POST /api/login
+[Tue Jun 17 12:11:57 2025] [::1]:60395 Closing
+[Tue Jun 17 12:12:09 2025] [::1]:60446 Accepted
+[Tue Jun 17 12:12:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:12:09 2025] [::1]:60446 [200]: OPTIONS /api/login
+[Tue Jun 17 12:12:09 2025] [::1]:60446 Closing
+[Tue Jun 17 12:12:09 2025] [::1]:60449 Accepted
+[Tue Jun 17 12:12:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 12:12:10 2025] [::1]:60449 [200]: POST /api/login
+[Tue Jun 17 12:12:10 2025] [::1]:60449 Closing
+[Tue Jun 17 13:51:34 2025] [::1]:61372 Accepted
+[Tue Jun 17 13:51:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 13:51:35 2025] [::1]:61372 [200]: OPTIONS /api/login
+[Tue Jun 17 13:51:35 2025] [::1]:61372 Closing
+[Tue Jun 17 13:51:35 2025] [::1]:61375 Accepted
+[Tue Jun 17 13:51:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 13:51:36 2025] [::1]:61375 [200]: POST /api/login
+[Tue Jun 17 13:51:36 2025] [::1]:61375 Closing
+[Tue Jun 17 14:01:09 2025] [::1]:61774 Accepted
+[Tue Jun 17 14:01:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 14:01:09 2025] [::1]:61774 [200]: OPTIONS /api/login
+[Tue Jun 17 14:01:09 2025] [::1]:61774 Closing
+[Tue Jun 17 14:01:09 2025] [::1]:61777 Accepted
+[Tue Jun 17 14:01:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 14:01:10 2025] [::1]:61777 [200]: POST /api/login
+[Tue Jun 17 14:01:10 2025] [::1]:61777 Closing
+[Tue Jun 17 14:01:52 2025] [::1]:61880 Accepted
+[Tue Jun 17 14:01:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 14:01:53 2025] [::1]:61880 [200]: OPTIONS /api/login
+[Tue Jun 17 14:01:53 2025] [::1]:61880 Closing
+[Tue Jun 17 14:01:53 2025] [::1]:61883 Accepted
+[Tue Jun 17 14:01:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 14:01:53 2025] [::1]:61883 [200]: POST /api/login
+[Tue Jun 17 14:01:53 2025] [::1]:61883 Closing
+[Tue Jun 17 14:02:11 2025] [::1]:61945 Accepted
+[Tue Jun 17 14:02:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 14:02:11 2025] [::1]:61945 [200]: OPTIONS /api/login
+[Tue Jun 17 14:02:11 2025] [::1]:61945 Closing
+[Tue Jun 17 14:02:11 2025] [::1]:61948 Accepted
+[Tue Jun 17 14:02:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Tue Jun 17 14:02:12 2025] [::1]:61948 [200]: POST /api/login
+[Tue Jun 17 14:02:12 2025] [::1]:61948 Closing

@@ -26,8 +26,9 @@ class JWTService
             'type' => "JWT",
             'alg' => 'HS256'
         ];
-
+        // payload avec expiration 24H
         $payload['exp'] = time() + (24 * 60 * 60);
+        // $payload['exp'] = time() + (30); // test sur 30 secondes
 
         $base64Header = self::base64url_encode(json_encode($headers));
         $base64Payload = self::base64url_encode(json_encode($payload));
@@ -36,7 +37,7 @@ class JWTService
         $signature = hash_hmac("sha256", $base64Header . '.' . $base64Payload, self::$key, true);
         $base64Signature = self::base64url_encode($signature);
 
-        return $base64Header . '-' . $base64Payload . '-' . $base64Signature;
+        return $base64Header . '.' . $base64Payload . '.' . $base64Signature;
     }
 
 
