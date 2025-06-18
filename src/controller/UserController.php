@@ -127,7 +127,7 @@ class UserController
                 'user' => [
                     'avatar' => $user->getAvatar(),
                     'username' => $user->getUsername(),
-                    'role' => $user->getRoles()
+                    // 'role' => $user->getRoles()
                 ]
             ]);
         } catch (\Exception $e) {
@@ -141,7 +141,36 @@ class UserController
     }
 
 
+    #[Route('/api/users', 'GET')] // Changement de la route pour éviter le conflit avec /api/login
+    public function getAllUser()
+    {
+        try {
+            $userRepository = new UserRepository();
+            $users = $userRepository->findAll(); // On va créer cette méthode
 
+            echo json_encode([
+                'success' => true,
+                'users' => array_map(function ($user) {
+                    return [
+                        'id' => $user->getId(),
+                        'username' => $user->getUsername(),
+                        'email' => $user->getEmail(),
+                        'avatar' => $user->getAvatar(),
+                        'roles' => $user->getRoles(),
+                        'is_verified' => $user->getIsVerified(),
+                        'created_at' => $user->getCreatedAt()
+                    ];
+                }, $users)
+            ]);
+        } catch (\Exception $e) {
+            error_log('Erreur récupération users: ' . $e->getMessage());
+            http_response_code(400);
+            echo json_encode([
+                "success" => false,
+                "error" => $e->getMessage()
+            ]);
+        }
+    }
 
     #[Route('/api/verify-email', 'GET')]
     public function verifyEmail()
