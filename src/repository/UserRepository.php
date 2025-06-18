@@ -81,14 +81,14 @@ class UserRepository
         try {
             $stmt = $this->pdo->prepare('SELECT * FROM `user` WHERE email = ?');
             $stmt->execute([$email]);
-            
+
             $data = $stmt->fetch();
-            
+
             // Si aucun utilisateur n'est trouvé, retourner null
             if (!$data) {
                 return null;
             }
-            
+
             // Vérification et nettoyage des données
             $userData = [
                 'username' => $data['username'],
@@ -101,7 +101,7 @@ class UserRepository
 
             $user = new User($userData);
             $user->setId((int)$data['id_user']);
-            
+
             if (isset($data['verified_at'])) {
                 $user->setVerifiedAt($data['verified_at']);
             }
@@ -125,14 +125,14 @@ class UserRepository
         try {
             $stmt = $this->pdo->prepare('SELECT * FROM `user` WHERE username = ?');
             $stmt->execute([$username]);
-            
+
             $data = $stmt->fetch();
-            
+
             // Si aucun utilisateur n'est trouvé, retourner null
             if (!$data) {
                 return null;
             }
-            
+
             // Vérification et nettoyage des données
             $userData = [
                 'username' => $data['username'],
@@ -145,7 +145,7 @@ class UserRepository
 
             $user = new User($userData);
             $user->setId((int)$data['id_user']);
-            
+
             if (isset($data['verified_at'])) {
                 $user->setVerifiedAt($data['verified_at']);
             }
@@ -190,5 +190,49 @@ class UserRepository
             $user->getAvatar(),
             $user->getId()
         ]);
+    }
+
+    public function findAll(): array
+    {
+        try {
+            $stmt = $this->pdo->query('SELECT * FROM user ORDER BY created_at DESC');
+            $users = [];
+
+            while ($data = $stmt->fetch()) {
+                $userData = [
+                    'username' => $data['username'],
+                    'email' => $data['email'],
+                    'password' => $data['password'],
+                    'avatar' => $data['avatar'],
+                    'email_token' => $data['email_token'],
+                    'is_verified' => (bool)$data['is_verified']
+                ];
+
+                $user = new User($userData);
+                $user->setId((int)$data['id_user']);
+
+                if (isset($data['created_at'])) {
+                    $user->setCreatedAt($data['created_at']);
+                }
+
+                if (isset($data['verified_at'])) {
+                    $user->setVerifiedAt($data['verified_at']);
+                }
+
+                // Décodage sécurisé des rôles
+                $roles = json_decode($data['roles'], true);
+                if (!is_array($roles)) {
+                    $roles = ['ROLE_USER'];
+                }
+                $user->setRoles($roles);
+
+                $users[] = $user;
+            }
+
+            return $users;
+        } catch (\PDOException $e) {
+            error_log("Erreur lors de la récupération des utilisateurs : " . $e->getMessage());
+            throw new \Exception("Une erreur est survenue lors de la récupération des utilisateurs");
+        }
     }
 }
