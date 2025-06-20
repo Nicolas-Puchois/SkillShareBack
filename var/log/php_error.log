@@ -1,114 +1,736 @@
-[Wed Jun 18 08:36:34 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
-[Wed Jun 18 09:12:47 2025] [::1]:50765 Accepted
-[Wed Jun 18 09:12:47 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:12:47 2025] [::1]:50765 [200]: OPTIONS /api/login
-[Wed Jun 18 09:12:47 2025] [::1]:50765 Closing
-[Wed Jun 18 09:12:47 2025] [::1]:50768 Accepted
-[Wed Jun 18 09:12:48 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:12:48 2025] Erreur inscription: Email ou mot de passe incorrect !
-[Wed Jun 18 09:12:48 2025] [::1]:50768 [400]: POST /api/login
-[Wed Jun 18 09:12:48 2025] [::1]:50768 Closing
-[Wed Jun 18 09:13:06 2025] [::1]:50774 Accepted
-[Wed Jun 18 09:13:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:06 2025] [::1]:50774 [200]: OPTIONS /api/login
-[Wed Jun 18 09:13:06 2025] [::1]:50774 Closing
-[Wed Jun 18 09:13:06 2025] [::1]:50777 Accepted
-[Wed Jun 18 09:13:07 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:07 2025] [::1]:50777 [200]: POST /api/login
-[Wed Jun 18 09:13:07 2025] [::1]:50777 Closing
-[Wed Jun 18 09:13:37 2025] [::1]:50891 Accepted
-[Wed Jun 18 09:13:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:38 2025] [::1]:50891 [200]: OPTIONS /api/login
-[Wed Jun 18 09:13:38 2025] [::1]:50891 Closing
-[Wed Jun 18 09:13:38 2025] [::1]:50894 Accepted
-[Wed Jun 18 09:13:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:39 2025] [::1]:50894 [200]: POST /api/login
-[Wed Jun 18 09:13:39 2025] [::1]:50894 Closing
-[Wed Jun 18 09:13:42 2025] [::1]:50928 Accepted
-[Wed Jun 18 09:13:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:43 2025] [::1]:50928 [200]: OPTIONS /api/users
-[Wed Jun 18 09:13:43 2025] [::1]:50928 Closing
-[Wed Jun 18 09:13:43 2025] [::1]:50931 Accepted
-[Wed Jun 18 09:13:43 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:43 2025] [::1]:50931 [200]: GET /api/users
-[Wed Jun 18 09:13:43 2025] [::1]:50931 Closing
-[Wed Jun 18 09:13:45 2025] [::1]:50937 Accepted
-[Wed Jun 18 09:13:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 09:13:46 2025] [::1]:50937 [200]: GET /api/uploads/avatars/avatar_par_defaut.png
-[Wed Jun 18 09:13:46 2025] [::1]:50937 Closing
-[Wed Jun 18 11:38:31 2025] [::1]:52912 Accepted
-[Wed Jun 18 11:38:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:31 2025] [::1]:52912 [200]: OPTIONS /api/login
-[Wed Jun 18 11:38:31 2025] [::1]:52912 Closing
-[Wed Jun 18 11:38:31 2025] [::1]:52915 Accepted
-[Wed Jun 18 11:38:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:32 2025] [::1]:52915 [200]: POST /api/login
-[Wed Jun 18 11:38:32 2025] [::1]:52915 Closing
-[Wed Jun 18 11:38:34 2025] [::1]:52949 Accepted
-[Wed Jun 18 11:38:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:35 2025] [::1]:52949 [200]: OPTIONS /api/users
-[Wed Jun 18 11:38:35 2025] [::1]:52949 Closing
-[Wed Jun 18 11:38:35 2025] [::1]:52952 Accepted
-[Wed Jun 18 11:38:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:35 2025] [::1]:52952 [200]: GET /api/users
-[Wed Jun 18 11:38:35 2025] [::1]:52952 Closing
-[Wed Jun 18 11:38:37 2025] [::1]:52958 Accepted
-[Wed Jun 18 11:38:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:38 2025] [::1]:52958 [200]: GET /api/uploads/avatars/avatar_par_defaut.png
-[Wed Jun 18 11:38:38 2025] [::1]:52958 Closing
-[Wed Jun 18 11:38:51 2025] [::1]:52984 Accepted
-[Wed Jun 18 11:38:51 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:51 2025] [::1]:52984 [200]: OPTIONS /api/login
-[Wed Jun 18 11:38:51 2025] [::1]:52984 Closing
-[Wed Jun 18 11:38:51 2025] [::1]:52987 Accepted
-[Wed Jun 18 11:38:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 11:38:52 2025] [::1]:52987 [200]: POST /api/login
-[Wed Jun 18 11:38:52 2025] [::1]:52987 Closing
-[Wed Jun 18 13:02:04 2025] [::1]:53700 Accepted
-[Wed Jun 18 13:02:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:02:05 2025] [::1]:53700 [200]: OPTIONS /api/login
-[Wed Jun 18 13:02:05 2025] [::1]:53700 Closing
-[Wed Jun 18 13:02:05 2025] [::1]:53703 Accepted
-[Wed Jun 18 13:02:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:02:06 2025] [::1]:53703 [200]: POST /api/login
-[Wed Jun 18 13:02:06 2025] [::1]:53703 Closing
-[Wed Jun 18 13:02:36 2025] [::1]:53783 Accepted
-[Wed Jun 18 13:02:36 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:02:36 2025] [::1]:53783 [200]: OPTIONS /api/login
-[Wed Jun 18 13:02:36 2025] [::1]:53783 Closing
-[Wed Jun 18 13:02:36 2025] [::1]:53786 Accepted
-[Wed Jun 18 13:02:37 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:02:37 2025] [::1]:53786 [200]: POST /api/login
-[Wed Jun 18 13:02:37 2025] [::1]:53786 Closing
-[Wed Jun 18 13:04:19 2025] [::1]:53898 Accepted
-[Wed Jun 18 13:04:19 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:04:19 2025] [::1]:53898 [200]: OPTIONS /api/login
-[Wed Jun 18 13:04:19 2025] [::1]:53898 Closing
-[Wed Jun 18 13:04:19 2025] [::1]:53901 Accepted
-[Wed Jun 18 13:04:19 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:04:20 2025] [::1]:53901 [200]: POST /api/login
-[Wed Jun 18 13:04:20 2025] [::1]:53901 Closing
-[Wed Jun 18 13:04:34 2025] [::1]:53907 Accepted
-[Wed Jun 18 13:04:34 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:04:34 2025] [::1]:53907 [200]: OPTIONS /api/login
-[Wed Jun 18 13:04:34 2025] [::1]:53907 Closing
-[Wed Jun 18 13:04:34 2025] [::1]:53910 Accepted
-[Wed Jun 18 13:04:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:04:35 2025] [::1]:53910 [200]: POST /api/login
-[Wed Jun 18 13:04:35 2025] [::1]:53910 Closing
-[Wed Jun 18 13:06:25 2025] [::1]:54092 Accepted
-[Wed Jun 18 13:06:25 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:06:25 2025] [::1]:54092 [200]: OPTIONS /api/login
-[Wed Jun 18 13:06:25 2025] [::1]:54092 Closing
-[Wed Jun 18 13:06:25 2025] [::1]:54095 Accepted
-[Wed Jun 18 13:06:26 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:06:26 2025] [::1]:54095 [200]: POST /api/login
-[Wed Jun 18 13:06:26 2025] [::1]:54095 Closing
-[Wed Jun 18 13:13:39 2025] [::1]:54329 Accepted
-[Wed Jun 18 13:13:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:13:40 2025] [::1]:54329 [200]: OPTIONS /api/login
-[Wed Jun 18 13:13:40 2025] [::1]:54329 Closing
-[Wed Jun 18 13:13:40 2025] [::1]:54332 Accepted
-[Wed Jun 18 13:13:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
-[Wed Jun 18 13:13:40 2025] [::1]:54332 [200]: POST /api/login
-[Wed Jun 18 13:13:40 2025] [::1]:54332 Closing
+[Fri Jun 20 08:21:25 2025] PHP 8.4.4 Development Server (http://localhost:8000) started
+[Fri Jun 20 08:25:07 2025] [::1]:55718 Accepted
+[Fri Jun 20 08:25:07 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:25:07 2025] [::1]:55718 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 08:25:07 2025] [::1]:55718 Closing
+[Fri Jun 20 08:56:59 2025] [::1]:53095 Accepted
+[Fri Jun 20 08:56:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:56:59 2025] [::1]:53095 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 08:56:59 2025] [::1]:53095 Closing
+[Fri Jun 20 08:56:59 2025] [::1]:53099 Accepted
+[Fri Jun 20 08:57:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:57:00 2025] [::1]:53099 [400]: POST /api/user/update-avatar
+[Fri Jun 20 08:57:00 2025] [::1]:53099 Closing
+[Fri Jun 20 08:58:41 2025] [::1]:53238 Accepted
+[Fri Jun 20 08:58:42 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:58:42 2025] [::1]:53238 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 08:58:42 2025] [::1]:53238 Closing
+[Fri Jun 20 08:58:50 2025] [::1]:53276 Accepted
+[Fri Jun 20 08:58:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:58:50 2025] [::1]:53276 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 08:58:50 2025] [::1]:53276 Closing
+[Fri Jun 20 08:59:12 2025] [::1]:53353 Accepted
+[Fri Jun 20 08:59:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:59:12 2025] [::1]:53353 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 08:59:12 2025] [::1]:53353 Closing
+[Fri Jun 20 08:59:15 2025] [::1]:53369 Accepted
+[Fri Jun 20 08:59:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:59:15 2025] [::1]:53369 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 08:59:15 2025] [::1]:53369 Closing
+[Fri Jun 20 08:59:15 2025] [::1]:53372 Accepted
+[Fri Jun 20 08:59:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:59:16 2025] [::1]:53372 [400]: POST /api/user/update-avatar
+[Fri Jun 20 08:59:16 2025] [::1]:53372 Closing
+[Fri Jun 20 08:59:33 2025] [::1]:53441 Accepted
+[Fri Jun 20 08:59:33 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:59:33 2025] [::1]:53441 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 08:59:33 2025] [::1]:53441 Closing
+[Fri Jun 20 08:59:37 2025] [::1]:63850 Accepted
+[Fri Jun 20 08:59:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:59:38 2025] [::1]:63850 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 08:59:38 2025] [::1]:63850 Closing
+[Fri Jun 20 08:59:38 2025] [::1]:63855 Accepted
+[Fri Jun 20 08:59:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 08:59:38 2025] [::1]:63855 [400]: POST /api/user/update-avatar
+[Fri Jun 20 08:59:38 2025] [::1]:63855 Closing
+[Fri Jun 20 09:00:44 2025] [::1]:53405 Accepted
+[Fri Jun 20 09:00:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:00:45 2025] [::1]:53405 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:00:45 2025] [::1]:53405 Closing
+[Fri Jun 20 09:00:53 2025] [::1]:53444 Accepted
+[Fri Jun 20 09:00:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:00:53 2025] [::1]:53444 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:00:53 2025] [::1]:53444 Closing
+[Fri Jun 20 09:00:56 2025] [::1]:53466 Accepted
+[Fri Jun 20 09:00:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:00:57 2025] [::1]:53466 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:00:57 2025] [::1]:53466 Closing
+[Fri Jun 20 09:00:57 2025] [::1]:53471 Accepted
+[Fri Jun 20 09:00:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:00:57 2025] [::1]:53471 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:00:57 2025] [::1]:53471 Closing
+[Fri Jun 20 09:03:06 2025] [::1]:54554 Accepted
+[Fri Jun 20 09:03:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:03:06 2025] [::1]:54554 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:03:06 2025] [::1]:54554 Closing
+[Fri Jun 20 09:03:13 2025] [::1]:54565 Accepted
+[Fri Jun 20 09:03:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:03:13 2025] [::1]:54565 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:03:13 2025] [::1]:54565 Closing
+[Fri Jun 20 09:03:13 2025] [::1]:54568 Accepted
+[Fri Jun 20 09:03:14 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:03:14 2025] [::1]:54568 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:03:14 2025] [::1]:54568 Closing
+[Fri Jun 20 09:03:33 2025] [::1]:54599 Accepted
+[Fri Jun 20 09:03:33 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:03:33 2025] [::1]:54599 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:03:33 2025] [::1]:54599 Closing
+[Fri Jun 20 09:03:38 2025] [::1]:54606 Accepted
+[Fri Jun 20 09:03:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:03:39 2025] [::1]:54606 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:03:39 2025] [::1]:54606 Closing
+[Fri Jun 20 09:03:39 2025] [::1]:54609 Accepted
+[Fri Jun 20 09:03:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:03:39 2025] [::1]:54609 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:03:39 2025] [::1]:54609 Closing
+[Fri Jun 20 09:04:15 2025] [::1]:54640 Accepted
+[Fri Jun 20 09:04:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:04:16 2025] [::1]:54640 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:04:16 2025] [::1]:54640 Closing
+[Fri Jun 20 09:04:19 2025] [::1]:54647 Accepted
+[Fri Jun 20 09:04:19 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:04:19 2025] [::1]:54647 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:04:19 2025] [::1]:54647 Closing
+[Fri Jun 20 09:04:19 2025] [::1]:54650 Accepted
+[Fri Jun 20 09:04:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:04:20 2025] [::1]:54650 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:04:20 2025] [::1]:54650 Closing
+[Fri Jun 20 09:07:25 2025] [::1]:54703 Accepted
+[Fri Jun 20 09:07:26 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:07:26 2025] [::1]:54703 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:07:26 2025] [::1]:54703 Closing
+[Fri Jun 20 09:07:29 2025] [::1]:54711 Accepted
+[Fri Jun 20 09:07:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:07:30 2025] [::1]:54711 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:07:30 2025] [::1]:54711 Closing
+[Fri Jun 20 09:07:30 2025] [::1]:54714 Accepted
+[Fri Jun 20 09:07:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:07:30 2025] [::1]:54714 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:07:30 2025] [::1]:54714 Closing
+[Fri Jun 20 09:08:23 2025] [::1]:54737 Accepted
+[Fri Jun 20 09:08:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:08:23 2025] [::1]:54737 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:08:23 2025] [::1]:54737 Closing
+[Fri Jun 20 09:08:30 2025] [::1]:54744 Accepted
+[Fri Jun 20 09:08:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:08:31 2025] [::1]:54744 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:08:31 2025] [::1]:54744 Closing
+[Fri Jun 20 09:08:31 2025] [::1]:54747 Accepted
+[Fri Jun 20 09:08:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:08:31 2025] [::1]:54747 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:08:31 2025] [::1]:54747 Closing
+[Fri Jun 20 09:11:50 2025] [::1]:54773 Accepted
+[Fri Jun 20 09:11:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:11:50 2025] [::1]:54773 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:11:50 2025] [::1]:54773 Closing
+[Fri Jun 20 09:11:53 2025] [::1]:54779 Accepted
+[Fri Jun 20 09:11:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:11:53 2025] [::1]:54779 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:11:53 2025] [::1]:54779 Closing
+[Fri Jun 20 09:11:53 2025] [::1]:54782 Accepted
+[Fri Jun 20 09:11:54 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:11:54 2025] [::1]:54782 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:11:54 2025] [::1]:54782 Closing
+[Fri Jun 20 09:14:26 2025] [::1]:54799 Accepted
+[Fri Jun 20 09:14:26 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:14:26 2025] [::1]:54799 [200]: GET /api/public/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:14:26 2025] [::1]:54799 Closing
+[Fri Jun 20 09:14:34 2025] [::1]:54823 Accepted
+[Fri Jun 20 09:14:35 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:14:35 2025] [::1]:54823 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:14:35 2025] [::1]:54823 Closing
+[Fri Jun 20 09:15:17 2025] [::1]:54847 Accepted
+[Fri Jun 20 09:15:17 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:15:17 2025] [::1]:54847 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:15:17 2025] [::1]:54847 Closing
+[Fri Jun 20 09:15:17 2025] [::1]:54850 Accepted
+[Fri Jun 20 09:15:18 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:15:18 2025] [::1]:54850 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:15:18 2025] [::1]:54850 Closing
+[Fri Jun 20 09:17:40 2025] [::1]:54883 Accepted
+[Fri Jun 20 09:17:40 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:17:40 2025] [::1]:54883 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:17:40 2025] [::1]:54883 Closing
+[Fri Jun 20 09:17:45 2025] [::1]:54890 Accepted
+[Fri Jun 20 09:17:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:17:45 2025] [::1]:54890 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:17:45 2025] [::1]:54890 Closing
+[Fri Jun 20 09:17:45 2025] [::1]:54893 Accepted
+[Fri Jun 20 09:17:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:17:46 2025] [::1]:54893 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:17:46 2025] [::1]:54893 Closing
+[Fri Jun 20 09:18:10 2025] [::1]:54919 Accepted
+[Fri Jun 20 09:18:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:18:10 2025] [::1]:54919 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:18:10 2025] [::1]:54919 Closing
+[Fri Jun 20 09:18:14 2025] [::1]:54926 Accepted
+[Fri Jun 20 09:18:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:18:15 2025] [::1]:54926 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:18:15 2025] [::1]:54926 Closing
+[Fri Jun 20 09:18:15 2025] [::1]:54929 Accepted
+[Fri Jun 20 09:18:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:18:15 2025] [::1]:54929 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:18:15 2025] [::1]:54929 Closing
+[Fri Jun 20 09:22:27 2025] [::1]:54988 Accepted
+[Fri Jun 20 09:22:27 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:22:27 2025] [::1]:54988 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:22:27 2025] [::1]:54988 Closing
+[Fri Jun 20 09:22:32 2025] [::1]:54997 Accepted
+[Fri Jun 20 09:22:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:22:32 2025] [::1]:54997 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:22:32 2025] [::1]:54997 Closing
+[Fri Jun 20 09:22:32 2025] [::1]:55000 Accepted
+[Fri Jun 20 09:22:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:22:33 2025] [::1]:55000 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:22:33 2025] [::1]:55000 Closing
+[Fri Jun 20 09:27:16 2025] [::1]:55072 Accepted
+[Fri Jun 20 09:27:17 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:27:17 2025] [::1]:55072 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:27:17 2025] [::1]:55072 Closing
+[Fri Jun 20 09:27:23 2025] [::1]:55098 Accepted
+[Fri Jun 20 09:27:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:27:23 2025] [::1]:55098 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:27:23 2025] [::1]:55098 Closing
+[Fri Jun 20 09:27:29 2025] [::1]:55105 Accepted
+[Fri Jun 20 09:27:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:27:29 2025] [::1]:55105 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:27:29 2025] [::1]:55105 Closing
+[Fri Jun 20 09:27:29 2025] [::1]:55108 Accepted
+[Fri Jun 20 09:27:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:27:30 2025] [::1]:55108 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:27:30 2025] [::1]:55108 Closing
+[Fri Jun 20 09:31:32 2025] [::1]:55158 Accepted
+[Fri Jun 20 09:31:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:31:32 2025] [::1]:55158 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:31:32 2025] [::1]:55158 Closing
+[Fri Jun 20 09:31:38 2025] [::1]:55165 Accepted
+[Fri Jun 20 09:31:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:31:38 2025] [::1]:55165 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:31:38 2025] [::1]:55165 Closing
+[Fri Jun 20 09:31:38 2025] [::1]:55168 Accepted
+[Fri Jun 20 09:31:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:31:39 2025] [::1]:55168 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:31:39 2025] [::1]:55168 Closing
+[Fri Jun 20 09:33:32 2025] [::1]:55207 Accepted
+[Fri Jun 20 09:33:33 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:33:33 2025] [::1]:55207 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:33:33 2025] [::1]:55207 Closing
+[Fri Jun 20 09:33:38 2025] [::1]:55214 Accepted
+[Fri Jun 20 09:33:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:33:38 2025] [::1]:55214 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:33:38 2025] [::1]:55214 Closing
+[Fri Jun 20 09:33:38 2025] [::1]:55217 Accepted
+[Fri Jun 20 09:33:38 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:33:38 2025] [::1]:55217 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:33:38 2025] [::1]:55217 Closing
+[Fri Jun 20 09:34:13 2025] [::1]:55241 Accepted
+[Fri Jun 20 09:34:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:34:13 2025] [::1]:55241 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:34:13 2025] [::1]:55241 Closing
+[Fri Jun 20 09:34:15 2025] [::1]:55247 Accepted
+[Fri Jun 20 09:34:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:34:16 2025] [::1]:55247 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:34:16 2025] [::1]:55247 Closing
+[Fri Jun 20 09:34:16 2025] [::1]:55250 Accepted
+[Fri Jun 20 09:34:16 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:34:16 2025] [::1]:55250 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:34:16 2025] [::1]:55250 Closing
+[Fri Jun 20 09:38:07 2025] [::1]:55291 Accepted
+[Fri Jun 20 09:38:07 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:38:07 2025] [::1]:55291 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:38:07 2025] [::1]:55291 Closing
+[Fri Jun 20 09:38:12 2025] [::1]:55298 Accepted
+[Fri Jun 20 09:38:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:38:12 2025] [::1]:55298 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:38:12 2025] [::1]:55298 Closing
+[Fri Jun 20 09:38:12 2025] [::1]:55301 Accepted
+[Fri Jun 20 09:38:13 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:38:13 2025] [::1]:55301 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:38:13 2025] [::1]:55301 Closing
+[Fri Jun 20 09:38:29 2025] [::1]:55329 Accepted
+[Fri Jun 20 09:38:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:38:30 2025] [::1]:55329 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:38:30 2025] [::1]:55329 Closing
+[Fri Jun 20 09:38:32 2025] [::1]:55335 Accepted
+[Fri Jun 20 09:38:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:38:32 2025] [::1]:55335 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:38:32 2025] [::1]:55335 Closing
+[Fri Jun 20 09:38:32 2025] [::1]:55338 Accepted
+[Fri Jun 20 09:38:33 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:38:33 2025] [::1]:55338 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:38:33 2025] [::1]:55338 Closing
+[Fri Jun 20 09:40:19 2025] [::1]:55368 Accepted
+[Fri Jun 20 09:40:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:40:20 2025] [::1]:55368 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:40:20 2025] [::1]:55368 Closing
+[Fri Jun 20 09:40:25 2025] [::1]:55375 Accepted
+[Fri Jun 20 09:40:25 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:40:25 2025] [::1]:55375 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:40:25 2025] [::1]:55375 Closing
+[Fri Jun 20 09:40:25 2025] [::1]:55378 Accepted
+[Fri Jun 20 09:40:26 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:40:26 2025] [::1]:55378 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:40:26 2025] [::1]:55378 Closing
+[Fri Jun 20 09:40:31 2025] [::1]:55401 Accepted
+[Fri Jun 20 09:40:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:40:31 2025] [::1]:55401 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:40:31 2025] [::1]:55401 Closing
+[Fri Jun 20 09:40:39 2025] [::1]:55450 Accepted
+[Fri Jun 20 09:40:39 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:40:39 2025] [::1]:55450 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:40:39 2025] [::1]:55450 Closing
+[Fri Jun 20 09:43:56 2025] [::1]:55711 Accepted
+[Fri Jun 20 09:43:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:43:57 2025] [::1]:55711 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:43:57 2025] [::1]:55711 Closing
+[Fri Jun 20 09:45:48 2025] [::1]:55747 Accepted
+[Fri Jun 20 09:45:48 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:45:48 2025] [::1]:55747 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:45:48 2025] [::1]:55747 Closing
+[Fri Jun 20 09:46:00 2025] [::1]:55773 Accepted
+[Fri Jun 20 09:46:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:46:01 2025] [::1]:55773 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:46:01 2025] [::1]:55773 Closing
+[Fri Jun 20 09:46:07 2025] [::1]:55782 Accepted
+[Fri Jun 20 09:46:08 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:46:08 2025] [::1]:55782 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:46:08 2025] [::1]:55782 Closing
+[Fri Jun 20 09:46:08 2025] [::1]:55785 Accepted
+[Fri Jun 20 09:46:08 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:46:08 2025] [::1]:55785 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:46:08 2025] [::1]:55785 Closing
+[Fri Jun 20 09:46:54 2025] [::1]:55839 Accepted
+[Fri Jun 20 09:46:54 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:46:54 2025] [::1]:55839 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:46:54 2025] [::1]:55839 Closing
+[Fri Jun 20 09:46:59 2025] [::1]:55850 Accepted
+[Fri Jun 20 09:46:59 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:46:59 2025] [::1]:55850 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:46:59 2025] [::1]:55850 Closing
+[Fri Jun 20 09:46:59 2025] [::1]:55853 Accepted
+[Fri Jun 20 09:47:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:47:00 2025] [::1]:55853 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:47:00 2025] [::1]:55853 Closing
+[Fri Jun 20 09:48:00 2025] [::1]:55883 Accepted
+[Fri Jun 20 09:48:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:00 2025] [::1]:55883 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:48:00 2025] [::1]:55883 Closing
+[Fri Jun 20 09:48:03 2025] [::1]:55908 Accepted
+[Fri Jun 20 09:48:03 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:03 2025] [::1]:55908 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:48:03 2025] [::1]:55908 Closing
+[Fri Jun 20 09:48:05 2025] [::1]:55915 Accepted
+[Fri Jun 20 09:48:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:05 2025] [::1]:55915 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:48:05 2025] [::1]:55915 Closing
+[Fri Jun 20 09:48:05 2025] [::1]:55918 Accepted
+[Fri Jun 20 09:48:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:06 2025] [::1]:55918 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:48:06 2025] [::1]:55918 Closing
+[Fri Jun 20 09:48:18 2025] [::1]:55942 Accepted
+[Fri Jun 20 09:48:18 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:18 2025] [::1]:55942 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:48:18 2025] [::1]:55942 Closing
+[Fri Jun 20 09:48:20 2025] [::1]:55965 Accepted
+[Fri Jun 20 09:48:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:21 2025] [::1]:55965 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:48:21 2025] [::1]:55965 Closing
+[Fri Jun 20 09:48:22 2025] [::1]:55971 Accepted
+[Fri Jun 20 09:48:22 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:22 2025] [::1]:55971 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:48:22 2025] [::1]:55971 Closing
+[Fri Jun 20 09:48:22 2025] [::1]:55974 Accepted
+[Fri Jun 20 09:48:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:48:23 2025] [::1]:55974 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:48:23 2025] [::1]:55974 Closing
+[Fri Jun 20 09:49:49 2025] [::1]:56003 Accepted
+[Fri Jun 20 09:49:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:49:50 2025] [::1]:56003 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:49:50 2025] [::1]:56003 Closing
+[Fri Jun 20 09:49:52 2025] [::1]:56026 Accepted
+[Fri Jun 20 09:49:52 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:49:52 2025] [::1]:56026 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:49:52 2025] [::1]:56026 Closing
+[Fri Jun 20 09:53:03 2025] [::1]:56066 Accepted
+[Fri Jun 20 09:53:04 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:53:04 2025] [::1]:56066 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:53:04 2025] [::1]:56066 Closing
+[Fri Jun 20 09:53:08 2025] [::1]:56089 Accepted
+[Fri Jun 20 09:53:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:53:09 2025] [::1]:56089 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:53:09 2025] [::1]:56089 Closing
+[Fri Jun 20 09:53:11 2025] [::1]:56096 Accepted
+[Fri Jun 20 09:53:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:53:11 2025] [::1]:56096 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:53:11 2025] [::1]:56096 Closing
+[Fri Jun 20 09:53:11 2025] [::1]:56099 Accepted
+[Fri Jun 20 09:53:12 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:53:12 2025] [::1]:56099 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:53:12 2025] [::1]:56099 Closing
+[Fri Jun 20 09:55:58 2025] [::1]:56146 Accepted
+[Fri Jun 20 09:55:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:55:58 2025] [::1]:56146 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:55:58 2025] [::1]:56146 Closing
+[Fri Jun 20 09:56:00 2025] [::1]:56169 Accepted
+[Fri Jun 20 09:56:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:56:01 2025] [::1]:56169 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:56:01 2025] [::1]:56169 Closing
+[Fri Jun 20 09:56:09 2025] [::1]:56176 Accepted
+[Fri Jun 20 09:56:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:56:10 2025] [::1]:56176 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:56:10 2025] [::1]:56176 Closing
+[Fri Jun 20 09:56:10 2025] [::1]:56179 Accepted
+[Fri Jun 20 09:56:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:56:10 2025] [::1]:56179 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:56:10 2025] [::1]:56179 Closing
+[Fri Jun 20 09:58:04 2025] [::1]:56213 Accepted
+[Fri Jun 20 09:58:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:58:05 2025] [::1]:56213 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 09:58:05 2025] [::1]:56213 Closing
+[Fri Jun 20 09:58:10 2025] [::1]:56220 Accepted
+[Fri Jun 20 09:58:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:58:11 2025] [::1]:56220 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 09:58:11 2025] [::1]:56220 Closing
+[Fri Jun 20 09:58:11 2025] [::1]:56223 Accepted
+[Fri Jun 20 09:58:11 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 09:58:11 2025] [::1]:56223 [400]: POST /api/user/update-avatar
+[Fri Jun 20 09:58:11 2025] [::1]:56223 Closing
+[Fri Jun 20 10:00:07 2025] [::1]:56420 Accepted
+[Fri Jun 20 10:00:08 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:00:08 2025] [::1]:56420 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 10:00:08 2025] [::1]:56420 Closing
+[Fri Jun 20 10:00:15 2025] [::1]:56428 Accepted
+[Fri Jun 20 10:00:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:00:15 2025] [::1]:56428 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 10:00:15 2025] [::1]:56428 Closing
+[Fri Jun 20 10:00:15 2025] [::1]:56431 Accepted
+[Fri Jun 20 10:00:15 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:00:15 2025] PHP Warning:  Trying to access array offset on true in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352
+[Fri Jun 20 10:00:15 2025] PHP Fatal error:  Uncaught TypeError: App\repository\UserRepository::findUserById(): Argument #1 ($id) must be of type string|int, null given, called in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352 and defined in E:\Projets\SkillShare\backend\src\repository\UserRepository.php:242
+Stack trace:
+#0 E:\Projets\SkillShare\backend\src\controller\UserController.php(352): App\repository\UserRepository->findUserById(NULL)
+#1 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->updateAvatar()
+#2 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/user/updat...', 'POST')
+#3 {main}
+  thrown in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 242
+[Fri Jun 20 10:00:15 2025] [::1]:56431 [200]: POST /api/user/update-avatar - Uncaught TypeError: App\repository\UserRepository::findUserById(): Argument #1 ($id) must be of type string|int, null given, called in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352 and defined in E:\Projets\SkillShare\backend\src\repository\UserRepository.php:242
+Stack trace:
+#0 E:\Projets\SkillShare\backend\src\controller\UserController.php(352): App\repository\UserRepository->findUserById(NULL)
+#1 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->updateAvatar()
+#2 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/user/updat...', 'POST')
+#3 {main}
+  thrown in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 242
+[Fri Jun 20 10:00:15 2025] [::1]:56431 Closing
+[Fri Jun 20 10:01:00 2025] [::1]:56461 Accepted
+[Fri Jun 20 10:01:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:01:00 2025] [::1]:56461 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 10:01:00 2025] [::1]:56461 Closing
+[Fri Jun 20 10:01:00 2025] [::1]:56466 Accepted
+[Fri Jun 20 10:01:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:01:01 2025] PHP Warning:  Trying to access array offset on true in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352
+[Fri Jun 20 10:01:01 2025] PHP Fatal error:  Uncaught TypeError: App\repository\UserRepository::findUserById(): Argument #1 ($id) must be of type string|int, null given, called in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352 and defined in E:\Projets\SkillShare\backend\src\repository\UserRepository.php:242
+Stack trace:
+#0 E:\Projets\SkillShare\backend\src\controller\UserController.php(352): App\repository\UserRepository->findUserById(NULL)
+#1 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->updateAvatar()
+#2 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/user/updat...', 'POST')
+#3 {main}
+  thrown in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 242
+[Fri Jun 20 10:01:01 2025] [::1]:56466 [200]: POST /api/user/update-avatar - Uncaught TypeError: App\repository\UserRepository::findUserById(): Argument #1 ($id) must be of type string|int, null given, called in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352 and defined in E:\Projets\SkillShare\backend\src\repository\UserRepository.php:242
+Stack trace:
+#0 E:\Projets\SkillShare\backend\src\controller\UserController.php(352): App\repository\UserRepository->findUserById(NULL)
+#1 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->updateAvatar()
+#2 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/user/updat...', 'POST')
+#3 {main}
+  thrown in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 242
+[Fri Jun 20 10:01:01 2025] [::1]:56466 Closing
+[Fri Jun 20 10:07:49 2025] [::1]:56564 Accepted
+[Fri Jun 20 10:07:49 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:07:49 2025] [::1]:56564 [200]: OPTIONS /api/login
+[Fri Jun 20 10:07:49 2025] [::1]:56564 Closing
+[Fri Jun 20 10:07:49 2025] [::1]:56567 Accepted
+[Fri Jun 20 10:07:50 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:07:50 2025] [::1]:56567 [200]: POST /api/login
+[Fri Jun 20 10:07:50 2025] [::1]:56567 Closing
+[Fri Jun 20 10:07:52 2025] [::1]:56601 Accepted
+[Fri Jun 20 10:07:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:07:53 2025] [::1]:56601 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 10:07:53 2025] [::1]:56601 Closing
+[Fri Jun 20 10:08:00 2025] [::1]:56608 Accepted
+[Fri Jun 20 10:08:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:08:00 2025] [::1]:56608 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 10:08:00 2025] [::1]:56608 Closing
+[Fri Jun 20 10:08:00 2025] [::1]:56611 Accepted
+[Fri Jun 20 10:08:01 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:08:01 2025] PHP Warning:  Trying to access array offset on true in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352
+[Fri Jun 20 10:08:01 2025] PHP Fatal error:  Uncaught TypeError: App\repository\UserRepository::findUserById(): Argument #1 ($id) must be of type string|int, null given, called in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352 and defined in E:\Projets\SkillShare\backend\src\repository\UserRepository.php:242
+Stack trace:
+#0 E:\Projets\SkillShare\backend\src\controller\UserController.php(352): App\repository\UserRepository->findUserById(NULL)
+#1 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->updateAvatar()
+#2 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/user/updat...', 'POST')
+#3 {main}
+  thrown in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 242
+[Fri Jun 20 10:08:01 2025] [::1]:56611 [200]: POST /api/user/update-avatar - Uncaught TypeError: App\repository\UserRepository::findUserById(): Argument #1 ($id) must be of type string|int, null given, called in E:\Projets\SkillShare\backend\src\controller\UserController.php on line 352 and defined in E:\Projets\SkillShare\backend\src\repository\UserRepository.php:242
+Stack trace:
+#0 E:\Projets\SkillShare\backend\src\controller\UserController.php(352): App\repository\UserRepository->findUserById(NULL)
+#1 E:\Projets\SkillShare\backend\src\core\Router.php(27): App\controller\UserController->updateAvatar()
+#2 E:\Projets\SkillShare\backend\public\index.php(20): App\core\Router->dispatch('/api/user/updat...', 'POST')
+#3 {main}
+  thrown in E:\Projets\SkillShare\backend\src\repository\UserRepository.php on line 242
+[Fri Jun 20 10:08:01 2025] [::1]:56611 Closing
+[Fri Jun 20 10:10:44 2025] [::1]:56650 Accepted
+[Fri Jun 20 10:10:44 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:10:44 2025] [::1]:56650 [200]: GET /api/uploads/avatar/avatar_par_defaut.png
+[Fri Jun 20 10:10:44 2025] [::1]:56650 Closing
+[Fri Jun 20 10:10:53 2025] [::1]:56658 Accepted
+[Fri Jun 20 10:10:53 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:10:53 2025] [::1]:56658 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 10:10:53 2025] [::1]:56658 Closing
+[Fri Jun 20 10:10:53 2025] [::1]:56661 Accepted
+[Fri Jun 20 10:10:54 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:10:54 2025] [::1]:56661 [200]: POST /api/user/update-avatar
+[Fri Jun 20 10:10:54 2025] [::1]:56661 Closing
+[Fri Jun 20 10:10:54 2025] [::1]:56665 Accepted
+[Fri Jun 20 10:10:54 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:10:54 2025] [::1]:56665 [200]: GET /api/avatar/avatar_6855178e543b09.75712849.png
+[Fri Jun 20 10:10:54 2025] [::1]:56665 Closing
+[Fri Jun 20 10:11:21 2025] [::1]:56680 Accepted
+[Fri Jun 20 10:11:22 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:11:22 2025] [::1]:56680 [200]: OPTIONS /api/user/update-avatar
+[Fri Jun 20 10:11:22 2025] [::1]:56680 Closing
+[Fri Jun 20 10:11:22 2025] [::1]:56683 Accepted
+[Fri Jun 20 10:11:22 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:11:22 2025] [::1]:56683 [200]: POST /api/user/update-avatar
+[Fri Jun 20 10:11:22 2025] [::1]:56683 Closing
+[Fri Jun 20 10:11:22 2025] [::1]:56687 Accepted
+[Fri Jun 20 10:11:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:11:23 2025] [::1]:56687 [200]: GET /api/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:11:23 2025] [::1]:56687 Closing
+[Fri Jun 20 10:12:49 2025] [::1]:56725 Accepted
+[Fri Jun 20 10:12:49 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:12:49 2025] [::1]:56725 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:12:49 2025] [::1]:56725 Closing
+[Fri Jun 20 10:13:29 2025] [::1]:56738 Accepted
+[Fri Jun 20 10:13:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:13:29 2025] [::1]:56738 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:13:29 2025] [::1]:56738 Closing
+[Fri Jun 20 10:13:29 2025] [::1]:56742 Accepted
+[Fri Jun 20 10:13:30 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:13:30 2025] [::1]:56742 [200]: GET /favicon.ico
+[Fri Jun 20 10:13:30 2025] [::1]:56742 Closing
+[Fri Jun 20 10:14:35 2025] [::1]:56749 Accepted
+[Fri Jun 20 10:14:35 2025] [::1]:56749 [200]: GET /uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:14:35 2025] [::1]:56749 Closing
+[Fri Jun 20 10:39:55 2025] [::1]:57059 Accepted
+[Fri Jun 20 10:39:56 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:39:56 2025] [::1]:57059 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:39:56 2025] [::1]:57059 Closing
+[Fri Jun 20 10:42:49 2025] [::1]:57116 Accepted
+[Fri Jun 20 10:42:49 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:42:49 2025] [::1]:57116 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:42:49 2025] [::1]:57116 Closing
+[Fri Jun 20 10:42:59 2025] [::1]:57147 Accepted
+[Fri Jun 20 10:43:00 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:43:00 2025] [::1]:57147 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:43:00 2025] [::1]:57147 Closing
+[Fri Jun 20 10:43:14 2025] [::1]:57177 Accepted
+[Fri Jun 20 10:43:14 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:43:14 2025] [::1]:57177 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:43:14 2025] [::1]:57177 Closing
+[Fri Jun 20 10:43:57 2025] [::1]:57211 Accepted
+[Fri Jun 20 10:43:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:43:58 2025] [::1]:57211 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:43:58 2025] [::1]:57211 Closing
+[Fri Jun 20 10:44:04 2025] [::1]:57261 Accepted
+[Fri Jun 20 10:44:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:44:05 2025] [::1]:57261 [200]: GET /api/uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:44:05 2025] [::1]:57261 Closing
+[Fri Jun 20 10:44:40 2025] [::1]:57291 Accepted
+[Fri Jun 20 10:44:40 2025] [::1]:57291 [200]: GET /uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:44:40 2025] [::1]:57291 Closing
+[Fri Jun 20 10:46:02 2025] [::1]:57323 Accepted
+[Fri Jun 20 10:46:02 2025] [::1]:57323 [200]: GET /uploads/avatar/avatar_685517aad0f277.43450394.png
+[Fri Jun 20 10:46:02 2025] [::1]:57323 Closing
+[Fri Jun 20 10:58:45 2025] [::1]:59782 Accepted
+[Fri Jun 20 10:58:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:58:45 2025] [::1]:59782 [200]: POST /api/upload-avatar
+[Fri Jun 20 10:58:45 2025] [::1]:59782 Closing
+[Fri Jun 20 10:58:45 2025] [::1]:59786 Accepted
+[Fri Jun 20 10:58:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:58:46 2025] [::1]:59786 [200]: OPTIONS /api/register
+[Fri Jun 20 10:58:46 2025] [::1]:59786 Closing
+[Fri Jun 20 10:58:46 2025] [::1]:59789 Accepted
+[Fri Jun 20 10:58:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:58:46 2025] Validation data: {"username":"toto","email":"toto@mail.com","password":"TOto1234&&@@","avatar":"avatar_685522c59c1110.59757803.png"}
+[Fri Jun 20 10:58:46 2025] Current user: toto / toto@mail.com
+[Fri Jun 20 10:58:46 2025] Checking username: toto
+[Fri Jun 20 10:58:46 2025] Username same as current user, skipping check
+[Fri Jun 20 10:58:46 2025] Checking email: toto@mail.com
+[Fri Jun 20 10:58:46 2025] Email same as current user, skipping check
+[Fri Jun 20 10:58:47 2025] [::1]:59789 [200]: POST /api/register
+[Fri Jun 20 10:58:47 2025] [::1]:59789 Closing
+[Fri Jun 20 10:59:44 2025] [::1]:59821 Accepted
+[Fri Jun 20 10:59:44 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:59:44 2025] [::1]:59821 [200]: OPTIONS /api/verify-email?token=d6d39f243ad282c934197895934173ab9156142862cadd1daa025bfab67a893e
+[Fri Jun 20 10:59:44 2025] [::1]:59821 Closing
+[Fri Jun 20 10:59:44 2025] [::1]:59824 Accepted
+[Fri Jun 20 10:59:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:59:45 2025] Erreur inscription: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'verified_at' in 'SET'
+[Fri Jun 20 10:59:45 2025] [::1]:59824 [400]: GET /api/verify-email?token=d6d39f243ad282c934197895934173ab9156142862cadd1daa025bfab67a893e
+[Fri Jun 20 10:59:45 2025] [::1]:59824 Closing
+[Fri Jun 20 10:59:54 2025] [::1]:59847 Accepted
+[Fri Jun 20 10:59:55 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:59:55 2025] [::1]:59847 [200]: OPTIONS /api/verify-email?token=d6d39f243ad282c934197895934173ab9156142862cadd1daa025bfab67a893e
+[Fri Jun 20 10:59:55 2025] [::1]:59847 Closing
+[Fri Jun 20 10:59:55 2025] [::1]:59850 Accepted
+[Fri Jun 20 10:59:55 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 10:59:55 2025] Erreur inscription: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'verified_at' in 'SET'
+[Fri Jun 20 10:59:55 2025] [::1]:59850 [400]: GET /api/verify-email?token=d6d39f243ad282c934197895934173ab9156142862cadd1daa025bfab67a893e
+[Fri Jun 20 10:59:55 2025] [::1]:59850 Closing
+[Fri Jun 20 11:00:36 2025] [::1]:59877 Accepted
+[Fri Jun 20 11:00:36 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:00:36 2025] [::1]:59877 [200]: OPTIONS /api/verify-email?token=d6d39f243ad282c934197895934173ab9156142862cadd1daa025bfab67a893e
+[Fri Jun 20 11:00:36 2025] [::1]:59877 Closing
+[Fri Jun 20 11:00:36 2025] [::1]:59882 Accepted
+[Fri Jun 20 11:00:37 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:00:37 2025] Erreur inscription: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'verified_at' in 'SET'
+[Fri Jun 20 11:00:37 2025] [::1]:59882 [400]: GET /api/verify-email?token=d6d39f243ad282c934197895934173ab9156142862cadd1daa025bfab67a893e
+[Fri Jun 20 11:00:37 2025] [::1]:59882 Closing
+[Fri Jun 20 11:02:17 2025] [::1]:59917 Accepted
+[Fri Jun 20 11:02:18 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:18 2025] [::1]:59917 [200]: POST /api/upload-avatar
+[Fri Jun 20 11:02:18 2025] [::1]:59917 Closing
+[Fri Jun 20 11:02:18 2025] [::1]:59921 Accepted
+[Fri Jun 20 11:02:18 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:18 2025] [::1]:59921 [200]: OPTIONS /api/register
+[Fri Jun 20 11:02:18 2025] [::1]:59921 Closing
+[Fri Jun 20 11:02:18 2025] [::1]:59924 Accepted
+[Fri Jun 20 11:02:19 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:19 2025] Validation data: {"username":"toto","email":"toto@mail.com","password":"TOto1234&&@@","avatar":"avatar_6855239a5c56c2.73423842.png"}
+[Fri Jun 20 11:02:19 2025] Current user: toto / toto@mail.com
+[Fri Jun 20 11:02:19 2025] Checking username: toto
+[Fri Jun 20 11:02:19 2025] Username same as current user, skipping check
+[Fri Jun 20 11:02:19 2025] Checking email: toto@mail.com
+[Fri Jun 20 11:02:19 2025] Email same as current user, skipping check
+[Fri Jun 20 11:02:19 2025] [::1]:59924 [200]: POST /api/register
+[Fri Jun 20 11:02:19 2025] [::1]:59924 Closing
+[Fri Jun 20 11:02:23 2025] [::1]:59949 Accepted
+[Fri Jun 20 11:02:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:23 2025] [::1]:59949 [200]: OPTIONS /api/verify-email?token=91731f743a6514c842a59d4940919b356c5ebf8657f5ff98f6c6730c71377530
+[Fri Jun 20 11:02:23 2025] [::1]:59949 Closing
+[Fri Jun 20 11:02:23 2025] [::1]:59952 Accepted
+[Fri Jun 20 11:02:23 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:24 2025] [::1]:59952 [200]: GET /api/verify-email?token=91731f743a6514c842a59d4940919b356c5ebf8657f5ff98f6c6730c71377530
+[Fri Jun 20 11:02:24 2025] [::1]:59952 Closing
+[Fri Jun 20 11:02:31 2025] [::1]:59975 Accepted
+[Fri Jun 20 11:02:31 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:31 2025] [::1]:59975 [200]: OPTIONS /api/login
+[Fri Jun 20 11:02:31 2025] [::1]:59975 Closing
+[Fri Jun 20 11:02:32 2025] [::1]:59978 Accepted
+[Fri Jun 20 11:02:32 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:02:32 2025] [::1]:59978 [200]: POST /api/login
+[Fri Jun 20 11:02:32 2025] [::1]:59978 Closing
+[Fri Jun 20 11:02:37 2025] [::1]:60016 Accepted
+[Fri Jun 20 11:02:37 2025] [::1]:60016 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:02:37 2025] [::1]:60016 Closing
+[Fri Jun 20 11:03:09 2025] [::1]:60040 Accepted
+[Fri Jun 20 11:03:09 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:03:09 2025] [::1]:60040 [200]: OPTIONS /api/login
+[Fri Jun 20 11:03:09 2025] [::1]:60040 Closing
+[Fri Jun 20 11:03:09 2025] [::1]:60043 Accepted
+[Fri Jun 20 11:03:10 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:03:10 2025] [::1]:60043 [200]: POST /api/login
+[Fri Jun 20 11:03:10 2025] [::1]:60043 Closing
+[Fri Jun 20 11:03:33 2025] [::1]:60099 Accepted
+[Fri Jun 20 11:03:33 2025] [::1]:60099 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:03:33 2025] [::1]:60099 Closing
+[Fri Jun 20 11:14:04 2025] [::1]:60238 Accepted
+[Fri Jun 20 11:14:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:14:05 2025] [::1]:60238 [200]: OPTIONS /api/user/request-reset
+[Fri Jun 20 11:14:05 2025] [::1]:60238 Closing
+[Fri Jun 20 11:14:05 2025] [::1]:60241 Accepted
+[Fri Jun 20 11:14:05 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:14:05 2025] [::1]:60241 [200]: POST /api/user/request-reset
+[Fri Jun 20 11:14:05 2025] [::1]:60241 Closing
+[Fri Jun 20 11:28:23 2025] [::1]:60392 Accepted
+[Fri Jun 20 11:28:23 2025] [::1]:60392 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:28:23 2025] [::1]:60392 Closing
+[Fri Jun 20 11:41:05 2025] [::1]:61013 Accepted
+[Fri Jun 20 11:41:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:41:06 2025] [::1]:61013 [200]: OPTIONS /api/user/reset-password
+[Fri Jun 20 11:41:06 2025] [::1]:61013 Closing
+[Fri Jun 20 11:41:06 2025] [::1]:61016 Accepted
+[Fri Jun 20 11:41:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:41:06 2025] [::1]:61016 [200]: POST /api/user/reset-password
+[Fri Jun 20 11:41:06 2025] [::1]:61016 Closing
+[Fri Jun 20 11:47:45 2025] [::1]:61044 Accepted
+[Fri Jun 20 11:47:45 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:47:45 2025] [::1]:61044 [200]: OPTIONS /api/user/reset-password
+[Fri Jun 20 11:47:45 2025] [::1]:61044 Closing
+[Fri Jun 20 11:47:46 2025] [::1]:61047 Accepted
+[Fri Jun 20 11:47:46 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:47:46 2025] [::1]:61047 [400]: POST /api/user/reset-password
+[Fri Jun 20 11:47:46 2025] [::1]:61047 Closing
+[Fri Jun 20 11:48:55 2025] [::1]:61075 Accepted
+[Fri Jun 20 11:48:55 2025] [::1]:61075 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:48:55 2025] [::1]:61075 Closing
+[Fri Jun 20 11:48:57 2025] [::1]:61078 Accepted
+[Fri Jun 20 11:48:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:48:58 2025] [::1]:61078 [200]: OPTIONS /api/user/request-reset
+[Fri Jun 20 11:48:58 2025] [::1]:61078 Closing
+[Fri Jun 20 11:48:58 2025] [::1]:61081 Accepted
+[Fri Jun 20 11:48:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:48:59 2025] [::1]:61081 [200]: POST /api/user/request-reset
+[Fri Jun 20 11:48:59 2025] [::1]:61081 Closing
+[Fri Jun 20 11:49:05 2025] [::1]:61115 Accepted
+[Fri Jun 20 11:49:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:49:06 2025] [::1]:61115 [200]: OPTIONS /api/user/reset-password
+[Fri Jun 20 11:49:06 2025] [::1]:61115 Closing
+[Fri Jun 20 11:49:06 2025] [::1]:61118 Accepted
+[Fri Jun 20 11:49:06 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:49:06 2025] [::1]:61118 [400]: POST /api/user/reset-password
+[Fri Jun 20 11:49:06 2025] [::1]:61118 Closing
+[Fri Jun 20 11:52:18 2025] [::1]:61239 Accepted
+[Fri Jun 20 11:52:18 2025] [::1]:61239 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:52:18 2025] [::1]:61239 Closing
+[Fri Jun 20 11:52:19 2025] [::1]:61242 Accepted
+[Fri Jun 20 11:52:19 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:52:19 2025] [::1]:61242 [200]: OPTIONS /api/user/request-reset
+[Fri Jun 20 11:52:19 2025] [::1]:61242 Closing
+[Fri Jun 20 11:52:19 2025] [::1]:61245 Accepted
+[Fri Jun 20 11:52:20 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:52:20 2025] [::1]:61245 [200]: POST /api/user/request-reset
+[Fri Jun 20 11:52:20 2025] [::1]:61245 Closing
+[Fri Jun 20 11:55:28 2025] [::1]:61277 Accepted
+[Fri Jun 20 11:55:28 2025] [::1]:61277 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:55:28 2025] [::1]:61277 Closing
+[Fri Jun 20 11:55:28 2025] [::1]:61280 Accepted
+[Fri Jun 20 11:55:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:55:29 2025] [::1]:61280 [200]: OPTIONS /api/user/request-reset
+[Fri Jun 20 11:55:29 2025] [::1]:61280 Closing
+[Fri Jun 20 11:55:29 2025] [::1]:61283 Accepted
+[Fri Jun 20 11:55:29 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:55:29 2025] PHP Warning:  Undefined array key "reset_token" in E:\Projets\SkillShare\backend\src\model\User.php on line 32
+[Fri Jun 20 11:55:29 2025] PHP Warning:  Undefined array key "reset_at" in E:\Projets\SkillShare\backend\src\model\User.php on line 33
+[Fri Jun 20 11:55:29 2025] [::1]:61283 [200]: POST /api/user/request-reset
+[Fri Jun 20 11:55:29 2025] [::1]:61283 Closing
+[Fri Jun 20 11:55:56 2025] [::1]:61312 Accepted
+[Fri Jun 20 11:55:56 2025] [::1]:61312 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:55:56 2025] [::1]:61312 Closing
+[Fri Jun 20 11:55:57 2025] [::1]:61315 Accepted
+[Fri Jun 20 11:55:57 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:55:57 2025] [::1]:61315 [200]: OPTIONS /api/user/request-reset
+[Fri Jun 20 11:55:57 2025] [::1]:61315 Closing
+[Fri Jun 20 11:55:57 2025] [::1]:61318 Accepted
+[Fri Jun 20 11:55:58 2025] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: localhost:9003 (through xdebug.client_host/xdebug.client_port).
+[Fri Jun 20 11:55:58 2025] PHP Warning:  Undefined array key "reset_token" in E:\Projets\SkillShare\backend\src\model\User.php on line 32
+[Fri Jun 20 11:55:58 2025] [::1]:61318 [200]: POST /api/user/request-reset
+[Fri Jun 20 11:55:58 2025] [::1]:61318 Closing
+[Fri Jun 20 11:57:11 2025] [::1]:61342 Accepted
+[Fri Jun 20 11:57:11 2025] [::1]:61342 [200]: GET /uploads/avatar/avatar_6855239a5c56c2.73423842.png
+[Fri Jun 20 11:57:11 2025] [::1]:61342 Closing
+[Fri Jun 20 11:57:11 2025] [::1]:61345 Accepted
+[Fri Jun 20 11:57:11 2025] [::1]:61345 [200]: OPTIONS /api/user/request-reset
+[Fri Jun 20 11:57:11 2025] [::1]:61345 Closing
+[Fri Jun 20 11:57:11 2025] [::1]:61347 Accepted
+[Fri Jun 20 11:57:43 2025] [::1]:61347 [200]: POST /api/user/request-reset
+[Fri Jun 20 11:57:43 2025] [::1]:61347 Closing

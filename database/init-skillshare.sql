@@ -13,7 +13,9 @@ CREATE TABLE `user` (
     `roles` JSON NOT NULL,
     email_token VARCHAR(100),
     is_verified BOOLEAN,
-    verfied_at DATETIME,
+    verified_at DATETIME,
+    reset_token VARCHAR(100),
+    reset_at DATETIME,
     created_at DATETIME
 );
 

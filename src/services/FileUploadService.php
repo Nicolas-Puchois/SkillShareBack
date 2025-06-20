@@ -55,4 +55,19 @@ class FileUploadService
         // Retourner le chemin relatif pour la base de données
         return $safeName;
     }
+
+
+    /**
+     * Supprime un ancien avatar
+     * @param string $filename Le nom du fichier à supprimer
+     * @return bool True si le fichier a été supprimé, false sinon
+     */
+    public static function deleteOldAvatar(string $filename, string $upload_dir = self::UPLOAD_DIR): bool
+    {
+        $filepath = $upload_dir . $filename;
+        if (file_exists($filepath)) {
+            return unlink($filepath);
+        }
+        return false;
+    }
 }
